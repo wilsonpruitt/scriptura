@@ -268,5 +268,9 @@ only for codebook rulings and reading passes.
 1. ~~De Lubac, stage A~~: rulings made, full reading pass done 2026-11-10 (STUDY.md 3.7).
 2. ~~The order of the register~~: ruled 2026-11-10, as proposed.
 3. ~~PG reading order (G2)~~: ruled 2026-11-10, the whole PG in volume order.
-4. ~~Git~~: a local-only repository since 2026-11-10. No remote; a pre-push hook refuses every push
-   (the ledger holds in-copyright citation strings).
+4. ~~Git~~: **public since 2026-11-10** at github.com/wilsonpruitt/scriptura (fresh history; Wilson's
+   ruling). The de Lubac ledger (his citations as printed, in copyright) stays out: the files listed
+   in `.gitignore` are versioned in a separate local-only git dir (`tools/private-git`, no remote,
+   push refused). The pre-2026-11-10 history, ledger included, is the local branch `local-history`
+   and `~/scriptura-history-2026-11-10.bundle`. The pre-push hook allows only `main` and refuses any
+   commit that touches a private ledger path.
