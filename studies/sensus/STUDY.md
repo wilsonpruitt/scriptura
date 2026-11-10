@@ -491,6 +491,16 @@ Per 100K words:
 - **Only 4 stated formulas** (three or more of L/A/T/N within 60 words) in the ancient
   translations, 2 in the humanist ones. Origen's scheme is not stated in the medieval terms; it is
   carried by the letter/spirit pair and by figures, as in section 10.
+- **The Greek side, first look** (2026-11-10). The Greek lines of the 1,083 bilingual pages of PG
+  13–14 (Tesseract `grc`, not Kraken: 350K Greek words, normalized without accents; a lower bound)
+  give these rates per 100K words: ἀναγωγ- **12.6**, τροπολογ- **10.3**, ἀλληγορ- 7.4, θεωρ- 61.4,
+  ἱστορ- 32.6, πνευματικ- 10.3, σωματικ- 7.7. Against *anagoge* 0.3 and *tropologia* 0.7 in the
+  ancient Latin translations, **the Greek Origen uses the technical names some 15–40 times as
+  often.** The contexts are his own usage ("κατὰ δὲ τὴν ἀναγωγήν", "πρὸς ἀναγωγήν", "τροπολογεῖ",
+  "ἀλληγορητέον"). The translator's effect holds at this grain. Caveat: the Greek and the Latin are
+  mostly different works (the Greek Matthew and John commentaries and the Jeremiah homilies,
+  against Rufinus's Genesis–Judges, Song and Romans). **The decisive test is a work extant in
+  both:** the Jeremiah homilies (Greek, and Jerome's Latin of part of them), set side by side.
 - PatroLLM triage, planned for the census windows, is not needed at this grain. Six formula
   windows can be read by eye, and the term counts are lexicon words, not the real-word residue
   where the scorer helps.

@@ -204,7 +204,15 @@ prints) as their text exists.
 
 **G. The PG track** (runs beside A–F as workshop time allows; OCR is local):
 
-- **G1. The census-grade gate.** Take a work with checked Greek already in hand (Dorotheus,
+- **G1 — PASSED 2026-11-10 for the census** (`studies/sensus/scripts/g1_gate.py`, no tokens): on
+  six Kraken works with a checked text beside the raw one (about 640 pages), raw Kraken
+  reproduces 97.7% of words in Dorotheus against the full plate check, and 98.5–99.8% elsewhere
+  (accent-insensitive, as the census reads). Words of 7+ letters: 96–99.6%. Sense stems: 262 of
+  269 recovered; most misses are dropped lines, not misreadings. Raw Kraken Greek is census-grade;
+  the per-work check stays only for editions and translation (the kt method). The coding half of
+  G1 is moot for the census and is covered for reading by the Dorotheus pilot (translating from
+  raw Kraken equals the plate check).
+- **G1. The census-grade gate (original statement).** Take a work with checked Greek already in hand (Dorotheus,
   Moschus). Code the same passages twice, once from raw Kraken text and once from the checked
   text. If the labels agree, raw Kraken Greek is census-grade and the PG can be read without the
   per-work check. If not, the check stays in the path and the cost changes.
