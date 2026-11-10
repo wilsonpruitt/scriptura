@@ -540,6 +540,30 @@ Per 100K words:
   rates: the low *tropologia* in the ancient Latin Origen is the translators' word choice, not
   Origen's scheme. Caveats: page-level, not aligned; Tesseract Latin; the vetus's date is disputed
   (5th–6th c.) and is not Rufinus or Jerome.
+- **The Greek term list, FROZEN by Wilson 2026-11-10** (`scripts/census_gr.py`; proposal counted on
+  373K words of Origen and 245K of six other Kraken works). It mirrors the Latin list: families L, A,
+  T, N, S; tiers core/broad; the same formula rule. Core: L κατὰ/πρὸς τὸ ῥητόν, τὴν λέξιν, τὴν
+  ἱστορίαν, σωματικῶς; A ἀλληγορ-, τροπικῶς/-ώτερον, μυστικῶς/-ώτερον, τυπικ-, συμβολικ-,
+  παραβολικ-; T τροπολογ-, ἠθικ-; N ἀναγωγ-; S πνευματικῶς, κατὰ τὸ πνευματικόν, νοητῶς, θεωρία.
+  Broad: ἱστορία, ῥητόν, λέξις, γράμμα (singular), σωματικός; μυστικός, μυστήριον, τύπος, σύμβολον,
+  αἴνιγμα, ὑπόνοια, σκιά; ψυχικός; βαθύτερον, πνευματικός, νοητός. Wilson's four rulings:
+  σωματικῶς core L (Greek-only, no *carnaliter* in the Latin list); τροπικῶς core A, not T (it is
+  *figuraliter*, any figure); βαθύτερον broad S; ψυχικός broad T (Pauline uses). Left out on purpose:
+  παραβολή (the Gospel parables), ἀνάλογον, νοητέον, the verb θεωρεῖν, διάνοια.
+- **The Greek census, first run** (raw Kraken, 9 works, 618.9K words; `census/gr-terms.tsv`,
+  `gr-formulas.tsv`). **Two stated formulas, both Origen, both L+A+N**, about 5 per million words
+  against the PL's 3.1: so not rarer, but different in kind. In both, allegory and anagogy are one
+  thing named twice: "τηρουμένης τῆς κατὰ τὰ γενόμενα ἱστορίας τὴν ἐπὶ τὰ πνευματικὰ ἀπταιστον
+  ἀναγωγήν … ἀλληγορούμενα" (PG 13 p. 456, Matthew); "τὰς κατὰ ἀναγωγὴν ἀλληγορίας τῶν
+  ἀναγεγραμμένων ἱστοριῶν" (PG 14 p. 110, John). None names tropology with the others; none names
+  four. Two-family windows in Origen: letter + allegory 21, letter + anagogy 11, letter + tropology 5,
+  and the spiritual names with each other 9 (A+T 4, A+N 4, N+T 1). **Origen's working scheme is a
+  pair, the letter against one higher reading, which he calls allegory, anagogy or tropology
+  interchangeably.** The four-name grid is not in his Greek; the Latin West built it, and the
+  Matthew parallel shows one step of the building (τροπολογία → *moraliter*). Outside Origen, the
+  six later works (Maximus, Dorotheus, Moschus, Sophronius, Procopius) have no formula and almost
+  no T or N terms (ἀναγωγ- 2, τροπολογ- 0). Kraken PG in volume order will widen this.
+
 - PatroLLM triage, planned for the census windows, is not needed at this grain. Six formula
   windows can be read by eye, and the term counts are lexicon words, not the real-word residue
   where the scorer helps.
