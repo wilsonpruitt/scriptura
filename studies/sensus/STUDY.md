@@ -501,6 +501,16 @@ Per 100K words:
   mostly different works (the Greek Matthew and John commentaries and the Jeremiah homilies,
   against Rufinus's Genesis–Judges, Song and Romans). **The decisive test is a work extant in
   both:** the Jeremiah homilies (Greek, and Jerome's Latin of part of them), set side by side.
+- **The Jeremiah parallel** (`scripts/jeremiah_parallel.py`). PG 13 prints Greek beside Jerome's
+  own Latin for 11 homilies ("Interprete S. Hieronymo", "Eodem interprete"; pp. 145–237, 67
+  pages, 25K Greek words). The others carry the editor's 18th-century Latin. **In Jerome's homilies
+  the Greek has no ἀναγωγ- or τροπολογ- at all** (Tesseract `grc`; to be confirmed on Kraken). All
+  four ἀναγωγή pages are in homilies with the editor's Latin, and he keeps *anagoge*. So this
+  parallel cannot decide the translator's effect: where Jerome translated, Origen did not use the
+  technical names. Next parallels with an ancient Latin beside surviving Greek: the Matthew
+  commentary, where the *vetus interpretatio* overlaps Greek tomes 12–17, and the Luke homilies
+  (Jerome) against their Greek fragments. Rerun with `kraken` when the PG 13–14 run lands (raw/kraken/origen-pg013, -pg014,
+  started 2026-11-10, ≈18 h).
 - PatroLLM triage, planned for the census windows, is not needed at this grain. Six formula
   windows can be read by eye, and the term counts are lexicon words, not the real-word residue
   where the scorer helps.
