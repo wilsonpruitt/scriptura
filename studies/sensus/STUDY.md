@@ -441,6 +441,60 @@ pay. The 64 "no terms" loci are where de Lubac reads a scheme the vocabulary doe
 A vocabulary census over this corpus can find stated formulas. It cannot find figured ones. Those
 are de Lubac's own contribution, and the ledger is the only place they are counted.
 
+## 11. The Latin Origen: PG 12–14 (2026-11-10, no tokens)
+
+**Text.** Tesseract 5, `lat+grc` at 300 dpi, over 2,632 pages (`scripts/pg_latin_ocr.py`).
+`scripts/pg_latin_clean.py` then:
+- keeps the Latin lines;
+- rejoins hyphenated line ends;
+- repairs the systematic errors (ae read as z/x, c/e, n/u, rn/m) only where the repair is a PL word
+  (lexicon: every form occurring twice in the PL TEI, `sources/pl-lexicon.txt`);
+- assigns PG columns from the running heads (column = 2 × page index + the windowed mode of the
+  offsets; spot-checked at 587, 991 and 1699);
+- tags each page **Latin-only** (the ancient translations: Rufinus, Jerome, the old Latin Matthew
+  series) or **bilingual** (Greek with Migne's facing Latin, i.e. early-modern humanist
+  translations).
+
+**94–95% of Latin words are PL words** (about 3% by rule). The residue is 5–6%, so counts are a
+lower bound; the sense terms are long and survive OCR well. Front matter (the roman-paginated
+prefaces) and index pages are excluded. They are the editors' own Latin: Delarue summarises Origen
+as "Triplex est scripturae sensus, litteralis, moralis, et mysticus seu allegoricus". Migne's
+footnotes cannot be separated cheaply and remain; the residual *litteralis* (1.3 per 100K, a word
+Rufinus does not use) is the trace of them.
+
+`scripts/pg_census.py la|bi` → `census/pg-terms-{la,bi}.tsv`, `census/pg-formulas-{la,bi}.tsv`.
+Per 100K words:
+
+| term | Latin-only (862K words) | humanist (606K) | PL, cent. 2–5 |
+|---|---:|---:|---:|
+| iuxta/secundum litteram | **13.6** | 3.0 | 1.8 |
+| spiritualiter | **11.6** | 6.1 | 5.6 |
+| allegoria | **7.0** | 3.0 | 1.4 |
+| spiritualis intelligentia | **5.0** | 0.5 | 0.9 |
+| allegoricus | 5.0 | 1.2 | 0.7 |
+| moraliter | **2.6** | 3.1 | 0.2 |
+| iuxta/secundum historiam | 2.2 | 2.5 | 1.0 |
+| tropologia | 0.7 | 2.1 | 1.1 |
+| anagoge | 0.3 | **3.1** | 0.6 |
+
+**Findings (provisional):**
+- **The ancient Latin Origen speaks in two levels, letter against spirit**, and far more densely
+  than the Latin Fathers of his own centuries: *secundum litteram* 7.5×, *spiritualis
+  intelligentia* 5.5×, *allegoria* 5×, *moraliter* about 13×. If Latin spiritual exegesis learned
+  its vocabulary somewhere, these translations are a prime candidate. That is de Lubac's thesis,
+  now with a rate.
+- **The technical names are rare in the ancient translations** (*anagoge* 0.3, *tropologia*
+  0.7, below the early PL) and common in the humanist Latin of the Greek works (*anagoge* 3.1,
+  *tropologia* 2.1). The Greek Origen used ἀναγωγή and τροπολογία. Rufinus and Jerome mostly
+  rendered them as *spiritualis intelligentia* and *moraliter*. This is a translator's effect, to be
+  checked against the Greek (G3).
+- **Only 4 stated formulas** (three or more of L/A/T/N within 60 words) in the ancient
+  translations, 2 in the humanist ones. Origen's scheme is not stated in the medieval terms; it is
+  carried by the letter/spirit pair and by figures, as in section 10.
+- PatroLLM triage, planned for the census windows, is not needed at this grain. Six formula
+  windows can be read by eye, and the term counts are lexicon words, not the real-word residue
+  where the scorer helps.
+
 ## Next
 
 1. Part I is in `ledger/claims-partI.tsv`, enriched, with `ledger/READING-MAP-partI.md` (3.7).
