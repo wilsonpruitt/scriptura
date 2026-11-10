@@ -509,8 +509,37 @@ Per 100K words:
   parallel cannot decide the translator's effect: where Jerome translated, Origen did not use the
   technical names. Next parallels with an ancient Latin beside surviving Greek: the Matthew
   commentary, where the *vetus interpretatio* overlaps Greek tomes 12–17, and the Luke homilies
-  (Jerome) against their Greek fragments. Rerun with `kraken` when the PG 13–14 run lands (raw/kraken/origen-pg013, -pg014,
-  started 2026-11-10, ≈18 h).
+  (Jerome) against their Greek fragments. **Confirmed on Kraken** (run landed 2026-11-10, 1,083
+  pages in ≈5 h, raw/kraken/origen-pg013, -pg014): Jerome's 67 pages, 26.7K Greek words, no
+  ἀναγωγ-, τροπολογ- or ἀλληγορ-; only λέξις/ῥητόν 19, ἱστορ- 7, πνευματικ- 7, θεωρ- 5.
+- **Kraken Greek rates** (accent-insensitive, per 100K words). PG 13 (216.7K words): ἀναγωγ- 12.9,
+  τροπολογ- 17.1, ἀλληγορ- 5.1, θεωρ- 41.1, ἱστορ- 31.8, πνευματικ- 54.9, μυστικ- 10.2. PG 14
+  (156.7K, mainly John): ἀναγωγ- 10.2, τροπολογ- 1.9, ἀλληγορ- 8.9, θεωρ- 88.1, ἱστορ- 34.5,
+  πνευματικ- 74.7. Tropology is a Matthew word; in John Origen says θεωρία and πνευματικός.
+- **The Matthew parallel: the decisive test** (`scripts/matthew_parallel.py`). PG 13 pp. 521–830
+  (293 pages, tomes 10–17) print three layers on one page: Origen's Greek, the humanist Latin facing
+  it, and below both, under "VETUS INTERPRETATIO", the ancient Latin of the same passage. Greek
+  82.7K words (Kraken), humanist 66.5K, vetus 87.9K (Tesseract). Page-level counts:
+
+  | | Greek | humanist Latin | ancient Latin |
+  |---|---:|---:|---:|
+  | ἀναγωγ- / *anagog-* | 6 | 4 | **0** |
+  | τροπολογ- / *tropolog-* | 21 | 17 | **0** |
+  | ἀλληγορ- / *allegor-* | 7 | 6 | 7 |
+  | θεωρ- / *theori-* | 35 | 7 | 0 |
+  | *moral-* | – | **0** | **26** |
+
+  **The ancient translator never writes *tropologia* or *anagoge*; he writes *moraliter*.** The 21 τροπολογ-
+  fall on 18 pages; 14 of them have *moral-* in the vetus block; the humanist on those
+  pages keeps *tropologia*, and never writes *moral-* anywhere in the span. ἀναγωγή is rendered by
+  paraphrase, once also by *moraliter intelligere* (p. 658, "εἰς αὐτὰς ἀναγωγῆς" → "secundum
+  historias moraliter intelligere"). *Allegoria* alone is carried over by both.
+  **So the translator's effect is real and has a direction:** the Latin West received Origen's
+  τροπολογία as the *moral* sense. This is the root of the medieval *tropologia = moralis* and its
+  displacement of Origen's broader use (any figurative reading). It also qualifies section 11's
+  rates: the low *tropologia* in the ancient Latin Origen is the translators' word choice, not
+  Origen's scheme. Caveats: page-level, not aligned; Tesseract Latin; the vetus's date is disputed
+  (5th–6th c.) and is not Rufinus or Jerome.
 - PatroLLM triage, planned for the census windows, is not needed at this grain. Six formula
   windows can be read by eye, and the term counts are lexicon words, not the real-word residue
   where the scorer helps.
