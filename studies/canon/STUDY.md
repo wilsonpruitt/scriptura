@@ -205,6 +205,22 @@ Against Migne's inline verse citations, in verse- and mixed-practice volumes (`b
    - The ceilings are OCR (the Google layer; a Tesseract re-read of Sabatier is ~3,300 pages, ~3
      h) and notes coverage (2,942 sections caught; the volume has more).
    - Not yet done: Sabatier I–II (OT), with the Psalms in several versions.
+
+   **Tesseract re-OCR of Sabatier** (2026-11-10, 400 dpi, `lat`, `pg_latin_ocr.py --pdf`; vol. III
+   1,157 pp., vol. I 1,022, vol. II 1,126; about 110 pp. a minute on bilevel scans):
+   - The words are cleaner, but Tesseract's page layout yields fewer clean *Versio antiqua* blocks
+     (693 against 1,034 from the Archive text). Header variants ("VERS10", "ANTIQU A", "VERSIO
+     ALTERA") were widened to match.
+   - Keyed verses: Tesseract 3,720, djvu 5,029, **union 6,003 of 7,953 (75%)**. Notes: union 3,725
+     verses. `sabatier.py` writes both (`--djvu` gives the `-djvu` files) and the index takes the
+     union.
+   - **Recall does not move:** everything combined gives 54.0% (d. ≤400) and 58.9% (401–600) at 3
+     pairs, against 54.7% and 59.9% from the djvu text alone, with precision down to 38%.
+   - So the OCR is not the bottleneck. **Stop investing in Sabatier for recall.** Its value from
+     here is the notes as a per-verse record of who read what, a check on the spine, not as an
+     index.
+   - The default Old Latin index is Clementine + Iohannes + Sabatier text (union).
+   - OT vols. I–II are OCR'd and unparsed. Parse them only if the OT recall question needs it.
 3. Precision: the formula exclusion list. **Proposed 2026-11-10** (`scripts/exclusions.py` →
    `exclusions-proposed.tsv`): 354 runs found in 25+ works, which Migne cites inline at under 25%
    of their occurrences. They cover 34,436 of the 639,794 n-gram rows. A low Migne rate is not

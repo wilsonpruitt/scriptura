@@ -58,9 +58,10 @@ def build(with_vl):
     if with_vl in (True, 'sab+vl'):
         extra.append(vl_verses())
     if with_vl in ('sab', 'sab+vl', 'all'):
-        extra.append(sabatier_verses())
+        extra.append(sabatier_verses()); extra.append(sabatier_verses('sabatier-v3-djvu.tsv'))
     if with_vl == 'all':
-        extra.append(vl_verses()); extra.append(sabatier_verses('sabatier-notes-v3.tsv'))
+        extra.append(vl_verses())
+        extra.append(sabatier_verses('sabatier-notes-v3.tsv')); extra.append(sabatier_verses('sabatier-notes-v3-djvu.tsv'))
     for d in extra:
         for k, readings in d.items():
             for ws in readings:

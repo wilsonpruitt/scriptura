@@ -26,8 +26,8 @@ SRC = os.path.join(HERE, 'sources', 'oldlatin')
 NT = {'Matt', 'Mark', 'Luke', 'John', 'Acts', 'Rom', '1Cor', '2Cor', 'Gal', 'Eph', 'Phil', 'Col', '1Thess', '2Thess',
       '1Tim', '2Tim', 'Titus', 'Phlm', 'Heb', 'Jas', '1Pet', '2Pet', '1John', '2John', '3John', 'Jude', 'Rev'}
 
-OL = re.compile(r'^\W{0,4}VERSIO\s+[AÀÁ]NT[IÍ]QU[AÆ]', re.I)
-NOTES = re.compile(r'VERSIONEM\s+[AÀÁ]NT[IÍ]QU', re.I)
+OL = re.compile(r'^\W{0,4}VERS[IÍ1l|]O[.,]?\s+(?:[AÀÁ]NT[IÍ1l]QU\s?[AÆ]|ALTERA)', re.I)
+NOTES = re.compile(r'VERS[IÍ1l|]ONEM\s+[AÀÁ]NT[IÍ1l]QU', re.I)
 VULG = re.compile(r'VULGATA', re.I)
 
 def deacc(s):
@@ -90,6 +90,19 @@ def chunks(block):
         out.append((vnum(parts[k]), parts[k + 1]))
     return out
 
+DJVU = '--djvu' in sys.argv          # force the Archive text; outputs get a -djvu suffix
+SUF = '-djvu' if DJVU else ''
+def load(vol):
+    """Tesseract pages (ocr/sabatierN/p-NNNN.txt, 400 dpi) when present, else the Archive's djvu text.
+    The two OCRs fail in different places; the index uses the union of both parses."""
+    d = os.path.join(SRC, 'ocr', f'sabatier{vol}')
+    pages = [] if DJVU else sorted(glob.glob(os.path.join(d, 'p-*.txt')))
+    if pages:
+        print(f'source: Tesseract, {len(pages)} pages')
+        return '\n'.join(open(f, encoding='utf-8', errors='replace').read() for f in pages)
+    print('source: Archive djvu text')
+    return open(os.path.join(SRC, f'sabatier{vol}_djvu.txt'), encoding='utf-8', errors='replace').read()
+
 def main(vol):
     lex = lexicon()
     vs = sp.vulgate()
@@ -104,7 +117,7 @@ def main(vol):
             inv[s].add(vi); df[s] += 1
     N = len(verses)
     idf = {s: math.log(N / df[s]) for s in df}
-    text = open(os.path.join(SRC, f'sabatier{vol}_djvu.txt'), encoding='utf-8', errors='replace').read()
+    text = load(vol)
     bl = blocks(text)
     rows, stat, prev = [], collections.Counter(), None
     for bi, b in enumerate(bl):
@@ -135,7 +148,7 @@ def main(vol):
                 stat['unkeyed'] += 1; continue
             stat[method] += 1; prev = key
             rows.append((key, method, f'{score:.2f}', ' '.join(words)))
-    out = os.path.join(SRC, f'sabatier-v{vol}.tsv')
+    out = os.path.join(SRC, f'sabatier-v{vol}{SUF}.tsv')
     with open(out, 'w', encoding='utf-8') as o:
         o.write('key\tmethod\tscore\ttext\n')
         for r in rows:
@@ -157,9 +170,9 @@ def notes(vol):
     vs = sp.vulgate()
     valid = {k for k, _ in vs}
     keyed = {}
-    for r in csv.DictReader(open(os.path.join(SRC, f'sabatier-v{vol}.tsv'), encoding='utf-8'), delimiter='\t'):
+    for r in csv.DictReader(open(os.path.join(SRC, f'sabatier-v{vol}{SUF}.tsv'), encoding='utf-8'), delimiter='\t'):
         keyed.setdefault(r['text'], r['key'])
-    text = open(os.path.join(SRC, f'sabatier{vol}_djvu.txt'), encoding='utf-8', errors='replace').read()
+    text = load(vol)
     mode, buf, prev, rows, stat = None, [], None, [], collections.Counter()
     def flush():
         nonlocal prev
@@ -191,7 +204,7 @@ def notes(vol):
             flush(); buf, mode = [], 'vulg'; continue
         buf.append(line)
     flush()
-    out = os.path.join(SRC, f'sabatier-notes-v{vol}.tsv')
+    out = os.path.join(SRC, f'sabatier-notes-v{vol}{SUF}.tsv')
     with open(out, 'w', encoding='utf-8') as o:
         o.write('key\ttext\n')
         for k, t in rows:
@@ -206,6 +219,7 @@ def check(vol):
         print(r['key'], r['method'], r['score']); print('   OL :', r['text'][:150]); print('   VUL:', ' '.join(vs.get(r['key'], []))[:150])
 
 if __name__ == '__main__':
+    sys.argv = [a for a in sys.argv if a != '--djvu']
     if sys.argv[1] == 'check':
         check(int(sys.argv[2]))
     elif sys.argv[1] == 'notes':
