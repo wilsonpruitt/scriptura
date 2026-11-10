@@ -1,0 +1,76 @@
+loc_author	reader_norm	ruling	final_heading	final_year	note
+Freculphus Lexovensis	Freculphus Lexoviensis	same				spelling
+Gillebertus de Hoilandia	Gilbertus de Hoilandia	same				spelling
+Amedeus Lausannensis	Amadeus of Lausanne	same				spelling
+Eckbertus Schonaugiensis	Ecbertus Schonaugiensis	same				spelling
+Balduinus Cantuariensis	Baldwin of Canterbury	same				spelling
+Hildebertus Cenomanensis	Hildebert of Lavardin	same				spelling
+Justus Urgellensis	Justus of Urgel	same				spelling
+Prosper Aquitanus	Prosper of Aquitaine	same				spelling
+Leo I	Leo Magnus	same				spelling
+Leo I	Leo the Great	same				spelling
+Joannes Saresberiensis	Ioannes Saresberiensis	same				spelling
+Guerricus Igniacensis	Guerric of Igny	same				spelling
+Nicolaus de Lira	Nicolaus de Lyra	same				spelling
+Godefridus Admontensis	Godfrey of Admont	same				spelling
+Othlonus S. Emmerammi Ratisponensis	Othlo S. Emmerammi	same				spelling
+Bruno Carthusianorum	Bruno Carthusianus	same				spelling
+Burchardus Wormaciensis	Burchardus Wormatiensis	same				spelling
+Wicbodus	Wigbodus	same				spelling
+Joannes Belethus	John Beleth	same				spelling
+Hincmarus Rhemensis	Hincmar of Reims	same				spelling
+Anselmus Havelbergensis	Anselm of Havelberg	same				spelling
+Petrus Blesensis	Peter of Blois	same				spelling
+Alpertus Symphoriani Metensis	Alpertus Mettensis	same				spelling
+Wernerus S. Blasii	Werner of Saint-Blaise	same				spelling
+Thomas Cisterciensis	Thomas of Perseigne	same				same man (Thomas of Perseigne = Thomas Cisterciensis)
+Henricus de Castro Marsiaco	Henricus de Marcy (Clarevallensis)	same				spelling
+Christianus Druthmarus	Christianus Stabulensis	same				same man (Christian of Stavelot)
+Paulus de Sancta Maria	Paulus Burgensis	same				same man (Paul of Burgos)
+Heterius Uxamensis	Heterius and Beatus of Liebana	same				joint letter
+Anselmus Laudunensis et schola	Glossa ordinaria	same				the PL heading for the Glossa
+Haymo Halberstatensis	Haimo of Auxerre	reader	Haymo Antissiodorensis	865	modern attribution; PL prints under Haymo of Halberstadt
+Haymo Halberstatensis	Haymo of Auxerre	reader	Haymo Antissiodorensis	865	modern attribution; PL prints under Haymo of Halberstadt
+Haymo Halberstatensis	Pseudo-Remigius Antissiodorensis	reader	Haymo Antissiodorensis	865	minor-prophets commentary, once under Remigius; now Haimo of Auxerre
+Remigius Lugdunensis	Florus Lugdunensis	reader	Florus Lugdunensis	860	modern attribution to Florus
+Remigius Lugdunensis	Pseudo-Florus Lugdunensis	reader	Florus Lugdunensis	860	page-checked: reader marks Florus as attribution	reader says Ps.-Florus: which attribution does de Lubac give?
+Gregorius I	Robert of Tombelaine	reader	Robertus de Tumbalena	1090	Expositio in Cant. under Gregory is Robert of Tombelaine's
+Hildebertus Cenomanensis	Gaufridus Babion	reader	Gaufridus Babion	1158	Ps.-Hildebert sermons by Geoffrey Babion
+Hildebertus Cenomanensis	Geoffrey Babion (Ps.-Hildebert)	reader	Gaufridus Babion	1158	Ps.-Hildebert sermons by Geoffrey Babion
+Hildebertus Cenomanensis	Petrus Comestor	reader	Petrus Comestor	1178	Ps.-Hildebert sermons by Peter Comestor
+Carolus Magnus	Theodulfus Aurelianensis	reader	Theodulfus Aurelianensis	821	Libri Carolini, printed under Charlemagne
+Guigo V prior Carthusiae	Guillelmus S. Theoderici	reader	Guillelmus S. Theoderici	1148	Golden Epistle, printed under Guigo
+Philippus de Harveng	Lucas de Monte Cornelii	reader	Lucas de Monte Cornelii	1178	Moralitates in Cant., printed among Philip's works
+Philippus de Harveng	Lucas abbas Montis S. Cornelii	reader	Lucas de Monte Cornelii	1178	as above
+Remigius Antissiodorensis	Pseudo-Remigius Autissiodorensis	reader	Pseudo-Remigius Antissiodorensis		Enarrationes in Psalmos, not Remigius's
+Auctores varii	Beda	reader				collection heading; the reader names the author cited
+Auctores varii	Paul the Deacon	reader	Paulus Diaconus	799	homiliary
+Auctores varii	Letaldus Miciacensis	reader	Letaldus Miciacensis	1000	collection heading
+Auctores varii	Johannes Trithemius	reader	Joannes Trithemius	1516	testimonia: Trithemius's
+Auctores varii	Guibertus de Novigento	reader			page-checked: PL CLVI 339 C is Guibert; 20 A is the testimonia	testimonia ABOUT Guibert: is Guibert's own text cited?
+Arnulfus de Boeriis	Pseudo-Bernardus Claraevallensis	locator				Arnulf's epistle, printed among Bernard's works: both right
+Guillelmus abbas	Pseudo-Bernardus Claraevallensis	locator	Guillelmus S. Theoderici	1148	William of St-Thierry's compilation from Bernard
+Origenes	Hieronymus Stridonensis	locator				Jerome is the translator
+Evagrius monachus	Evagrius Ponticus	locator				Altercatio is Evagrius the Gaul's, not Ponticus
+Beda	Acca of Hexham	locator				Bede's Mark, with its letter to Acca
+Adso Dervensis	Rabanus Maurus	locator				De Antichristo, sometimes ascribed to Rabanus
+Paulus de Sancta Maria	Matthias Doring	reader	Matthias Doring	1469	page-checked: PL CXIII prints Doring's Replicae with Paul's Additiones	Doring's Replicae answer Paul's Additiones: whose words?
+Atto Vercellensis	Claudius Taurinensis	locator			page-checked: de Lubac treats it as Atto's ("Atton développe lui-même")	3 rows
+Adamus Scotus	Joannes Kelsoensis	reader			page-checked: de Lubac cites John of Kelso's letter, printed with Adam's work	5 rows: John of Kelso's letter is printed with Adam's work
+Adamus Scotus	Gervase of Prémontré	reader	Gervasius Praemonstratensis	1228	page-checked: de Lubac names Gervase, ep. 18; column sits in Adam's range	
+Adamus Scotus	Godefridus Viterbiensis	reader	Godefridus Viterbiensis	1191	Pantheon shares PL 198; reader follows de Lubac's name	
+Adamus de Sancto Victore	Richardus S. Victoris	reader	Rupertus Tuitiensis	1129	page-checked: neither; In Ez. l. 2 c. 1-30 at cols 1463-91 is Rupert, De Trin. (PL 167), volume carried wrongly to 196
+Hugo de S. Victore	Pseudo-Richardus S. Victoris	reader	Pseudo-Richardus S. Victoris		page-checked: "RICHARD (?), In Joel. (CLXXV, 334 C)"	
+Hugo de S. Victore	Necrologium S. Victoris	reader	Necrologium S. Victoris		page-checked: the necrology, printed in PL 175 prolegomena	
+Guillelmus Tyrensis	Lucas de Monte Cornelii	reader	Lucas de Monte Cornelii	1178	page-checked: de Lubac prints CCI for CCIII	
+Sicardus Cremonensis	Philippus de Harveng	reader	Philippus de Harveng	1183	page-checked: "Ph. de Harv., Ep. 1 (PL, CCXIII...)": CCXIII for CCIII	
+Pacatus Drepanius	Damasus papa	reader			page-checked: "DAMASE, ep. 6 (ad Const.; 507)"	
+Coelestinus I	Claudius Taurinensis	reader	Claudius Taurinensis	827	page-checked: "CLAUDE, In Gen., l. II (PL, L, 484 C)"	
+Remigius Antissiodorensis	Notkerus Balbulus	reader			Notker's De interpretibus shares PL 131	
+Aimoinus Floriacensis	Letaldus Miciacensis	reader	Letaldus Miciacensis	1000	de Lubac names Letald, Miracula S. Maximini	
+Paulinus Mediolanensis	Adrevaldus Floriacensis	reader			page-checked: "ADREVALD (XX, 715 B)", printed under Paulinus	
+Nicolaus Claraevallensis	Bernardus Claraevallensis	reader			reader cites Bernard In Cant. s. 29; not verified at the column	
+Anselmus Cantuariensis	Hervé de Bourg-Dieu	reader	Herveus Burgidolensis	1150	page-checked: "HERVÉ (CLVIII, 594 C)", printed among Anselm's works	
+Hieronymus Stridonensis	Bruno Astensis	reader			reader cites Bruno of Segni on Matthew; not verified at the column	
+Hildefonsus Toletanus	Heterius Uxamensis	reader			Adversus Elipandum shares PL 96	
+Petrus Cantor	Garnier (Garnerius)	reader	Garnerius Lingonensis	1199	Garnier's sermons share PL 205	

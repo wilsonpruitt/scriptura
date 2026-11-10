@@ -1,0 +1,43 @@
+SCRIPTURA — RIGHTS AND REUSE
+Copyright © 2026 Wilson Pruitt. A Wroot Press work; Wroot Press is an
+imprint of Wroot Labs LLC (Texas).
+
+1. PUBLIC DOMAIN — NOT CLAIMED
+
+Public-domain source texts reproduced or quoted here (the Clementine Vulgate,
+Migne's Patrologia Latina, Sabatier's Versiones antiquae) are not claimed. A
+faithful transcription of a public-domain text creates no new copyright, and
+none is asserted.
+
+2. LICENSED — CC BY-NC 4.0
+
+This project's original work is licensed under the Creative Commons
+Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0):
+
+  (a) the plans, study write-ups, findings and original prose;
+  (b) the structured data — citation spine, codings, census tables, their
+      selection, arrangement, encoding, identifiers and segmentation;
+  (c) the site code, design, scripts and tools.
+
+Legal code: https://creativecommons.org/licenses/by-nc/4.0/legalcode
+
+Training machine-learning models on this material is expressly permitted,
+including for commercial models.
+
+3. THIRD-PARTY MATERIAL
+
+Material from other sources keeps its own terms and credits, and nothing here
+claims it. In particular:
+
+  - The Patrologia Latina transcription used to build the spine is Corpus
+    Corporum's (Universität Zürich); it is not redistributed here.
+  - The Old Latin manuscripts of John are the IGNTP's Vetus Latina Iohannes
+    transcriptions (CC BY 4.0); they are not redistributed here.
+  - Henri de Lubac's Exégèse médiévale is in copyright. This repository holds
+    only pointers to it (tome, page, note) and aggregate counts; the ledger of
+    his citations as printed is kept out of the repository.
+
+4. PERMISSION
+
+Permission beyond these terms is given readily, and free for scholarly and
+ecclesial use. Ask: wilson@wrootlabs.com

@@ -1,0 +1,818 @@
+century	words	term	family	grade	n	per_million
+2	48591	historia	L	broad	9	185.2
+2	48591	historice	L	core	0	0.0
+2	48591	historicus	L	broad	1	20.6
+2	48591	historialis	L	core	0	0.0
+2	48591	historialiter	L	core	0	0.0
+2	48591	iuxta/secundum historiam	L	core	0	0.0
+2	48591	ad litteram	L	core	0	0.0
+2	48591	iuxta/secundum litteram	L	core	0	0.0
+2	48591	litteralis	L	core	0	0.0
+2	48591	litteraliter	L	core	0	0.0
+2	48591	littera	L	broad	42	864.4
+2	48591	allegoria	A	core	0	0.0
+2	48591	allegorice	A	core	0	0.0
+2	48591	allegoricus	A	core	0	0.0
+2	48591	mystice	A	core	0	0.0
+2	48591	mystica intelligentia / mysticus sensus	A	core	0	0.0
+2	48591	mysticus	A	broad	1	20.6
+2	48591	mysterium	A	broad	1	20.6
+2	48591	typus	A	broad	0	0.0
+2	48591	typice	A	core	0	0.0
+2	48591	typicus	A	core	0	0.0
+2	48591	figura	A	broad	3	61.7
+2	48591	figuraliter	A	core	0	0.0
+2	48591	figurate	A	core	0	0.0
+2	48591	parabolice	A	core	0	0.0
+2	48591	allegorizare	A	core	0	0.0
+2	48591	sacramentum	A	broad	4	82.3
+2	48591	tropologia	T	core	0	0.0
+2	48591	tropologice	T	core	0	0.0
+2	48591	tropologicus	T	core	0	0.0
+2	48591	moraliter	T	core	0	0.0
+2	48591	moralitas	T	core	0	0.0
+2	48591	sensus moralis / moralis intelligentia	T	core	0	0.0
+2	48591	moralis	T	broad	0	0.0
+2	48591	anagoge	N	core	0	0.0
+2	48591	anagogice	N	core	0	0.0
+2	48591	anagogicus	N	core	0	0.0
+2	48591	spiritualiter	S	core	0	0.0
+2	48591	spiritualis intelligentia	S	core	0	0.0
+2	48591	spiritualis sensus/intellectus	S	core	0	0.0
+2	48591	theoria	S	core	0	0.0
+2	48591	theorice	S	core	0	0.0
+2	48591	spiritualis	S	broad	0	0.0
+3	741330	historia	L	broad	57	76.9
+3	741330	historice	L	core	0	0.0
+3	741330	historicus	L	broad	4	5.4
+3	741330	historialis	L	core	0	0.0
+3	741330	historialiter	L	core	0	0.0
+3	741330	iuxta/secundum historiam	L	core	5	6.7
+3	741330	ad litteram	L	core	1	1.3
+3	741330	iuxta/secundum litteram	L	core	3	4.0
+3	741330	litteralis	L	core	0	0.0
+3	741330	litteraliter	L	core	0	0.0
+3	741330	littera	L	broad	421	567.9
+3	741330	allegoria	A	core	20	27.0
+3	741330	allegorice	A	core	5	6.7
+3	741330	allegoricus	A	core	16	21.6
+3	741330	mystice	A	core	2	2.7
+3	741330	mystica intelligentia / mysticus sensus	A	core	1	1.3
+3	741330	mysticus	A	broad	4	5.4
+3	741330	mysterium	A	broad	63	85.0
+3	741330	typus	A	broad	25	33.7
+3	741330	typice	A	core	3	4.0
+3	741330	typicus	A	core	1	1.3
+3	741330	figura	A	broad	159	214.5
+3	741330	figuraliter	A	core	14	18.9
+3	741330	figurate	A	core	18	24.3
+3	741330	parabolice	A	core	0	0.0
+3	741330	allegorizare	A	core	6	8.1
+3	741330	sacramentum	A	broad	288	388.5
+3	741330	tropologia	T	core	1	1.3
+3	741330	tropologice	T	core	0	0.0
+3	741330	tropologicus	T	core	0	0.0
+3	741330	moraliter	T	core	0	0.0
+3	741330	moralitas	T	core	1	1.3
+3	741330	sensus moralis / moralis intelligentia	T	core	0	0.0
+3	741330	moralis	T	broad	7	9.4
+3	741330	anagoge	N	core	0	0.0
+3	741330	anagogice	N	core	0	0.0
+3	741330	anagogicus	N	core	0	0.0
+3	741330	spiritualiter	S	core	67	90.4
+3	741330	spiritualis intelligentia	S	core	1	1.3
+3	741330	spiritualis sensus/intellectus	S	core	1	1.3
+3	741330	theoria	S	core	0	0.0
+3	741330	theorice	S	core	0	0.0
+3	741330	spiritualis	S	broad	338	455.9
+4	3218239	historia	L	broad	297	92.3
+4	3218239	historice	L	core	3	0.9
+4	3218239	historicus	L	broad	37	11.5
+4	3218239	historialis	L	core	0	0.0
+4	3218239	historialiter	L	core	1	0.3
+4	3218239	iuxta/secundum historiam	L	core	15	4.7
+4	3218239	ad litteram	L	core	7	2.2
+4	3218239	iuxta/secundum litteram	L	core	67	20.8
+4	3218239	litteralis	L	core	0	0.0
+4	3218239	litteraliter	L	core	0	0.0
+4	3218239	littera	L	broad	1102	342.4
+4	3218239	allegoria	A	core	32	9.9
+4	3218239	allegorice	A	core	6	1.9
+4	3218239	allegoricus	A	core	27	8.4
+4	3218239	mystice	A	core	53	16.5
+4	3218239	mystica intelligentia / mysticus sensus	A	core	0	0.0
+4	3218239	mysticus	A	broad	192	59.7
+4	3218239	mysterium	A	broad	1411	438.4
+4	3218239	typus	A	broad	228	70.8
+4	3218239	typice	A	core	1	0.3
+4	3218239	typicus	A	core	16	5.0
+4	3218239	figura	A	broad	506	157.2
+4	3218239	figuraliter	A	core	1	0.3
+4	3218239	figurate	A	core	3	0.9
+4	3218239	parabolice	A	core	1	0.3
+4	3218239	allegorizare	A	core	0	0.0
+4	3218239	sacramentum	A	broad	1213	376.9
+4	3218239	tropologia	T	core	0	0.0
+4	3218239	tropologice	T	core	0	0.0
+4	3218239	tropologicus	T	core	0	0.0
+4	3218239	moraliter	T	core	25	7.8
+4	3218239	moralitas	T	core	6	1.9
+4	3218239	sensus moralis / moralis intelligentia	T	core	2	0.6
+4	3218239	moralis	T	broad	144	44.7
+4	3218239	anagoge	N	core	0	0.0
+4	3218239	anagogice	N	core	0	0.0
+4	3218239	anagogicus	N	core	0	0.0
+4	3218239	spiritualiter	S	core	152	47.2
+4	3218239	spiritualis intelligentia	S	core	17	5.3
+4	3218239	spiritualis sensus/intellectus	S	core	23	7.1
+4	3218239	theoria	S	core	2	0.6
+4	3218239	theorice	S	core	0	0.0
+4	3218239	spiritualis	S	broad	1323	411.1
+5	11350158	historia	L	broad	1249	110.0
+5	11350158	historice	L	core	6	0.5
+5	11350158	historicus	L	broad	162	14.3
+5	11350158	historialis	L	core	8	0.7
+5	11350158	historialiter	L	core	7	0.6
+5	11350158	iuxta/secundum historiam	L	core	134	11.8
+5	11350158	ad litteram	L	core	83	7.3
+5	11350158	iuxta/secundum litteram	L	core	204	18.0
+5	11350158	litteralis	L	core	4	0.4
+5	11350158	litteraliter	L	core	0	0.0
+5	11350158	littera	L	broad	5533	487.5
+5	11350158	allegoria	A	core	163	14.4
+5	11350158	allegorice	A	core	43	3.8
+5	11350158	allegoricus	A	core	58	5.1
+5	11350158	mystice	A	core	98	8.6
+5	11350158	mystica intelligentia / mysticus sensus	A	core	16	1.4
+5	11350158	mysticus	A	broad	420	37.0
+5	11350158	mysterium	A	broad	2228	196.3
+5	11350158	typus	A	broad	366	32.2
+5	11350158	typice	A	core	5	0.4
+5	11350158	typicus	A	core	18	1.6
+5	11350158	figura	A	broad	1399	123.3
+5	11350158	figuraliter	A	core	43	3.8
+5	11350158	figurate	A	core	167	14.7
+5	11350158	parabolice	A	core	5	0.4
+5	11350158	allegorizare	A	core	4	0.4
+5	11350158	sacramentum	A	broad	3763	331.5
+5	11350158	tropologia	T	core	168	14.8
+5	11350158	tropologice	T	core	24	2.1
+5	11350158	tropologicus	T	core	10	0.9
+5	11350158	moraliter	T	core	8	0.7
+5	11350158	moralitas	T	core	0	0.0
+5	11350158	sensus moralis / moralis intelligentia	T	core	4	0.4
+5	11350158	moralis	T	broad	75	6.6
+5	11350158	anagoge	N	core	91	8.0
+5	11350158	anagogice	N	core	0	0.0
+5	11350158	anagogicus	N	core	0	0.0
+5	11350158	spiritualiter	S	core	640	56.4
+5	11350158	spiritualis intelligentia	S	core	127	11.2
+5	11350158	spiritualis sensus/intellectus	S	core	36	3.2
+5	11350158	theoria	S	core	25	2.2
+5	11350158	theorice	S	core	1	0.1
+5	11350158	spiritualis	S	broad	3660	322.5
+6	3787001	historia	L	broad	327	86.3
+6	3787001	historice	L	core	3	0.8
+6	3787001	historicus	L	broad	42	11.1
+6	3787001	historialis	L	core	2	0.5
+6	3787001	historialiter	L	core	1	0.3
+6	3787001	iuxta/secundum historiam	L	core	12	3.2
+6	3787001	ad litteram	L	core	82	21.7
+6	3787001	iuxta/secundum litteram	L	core	10	2.6
+6	3787001	litteralis	L	core	5	1.3
+6	3787001	litteraliter	L	core	3	0.8
+6	3787001	littera	L	broad	1753	462.9
+6	3787001	allegoria	A	core	51	13.5
+6	3787001	allegorice	A	core	13	3.4
+6	3787001	allegoricus	A	core	16	4.2
+6	3787001	mystice	A	core	17	4.5
+6	3787001	mystica intelligentia / mysticus sensus	A	core	4	1.1
+6	3787001	mysticus	A	broad	112	29.6
+6	3787001	mysterium	A	broad	650	171.6
+6	3787001	typus	A	broad	110	29.0
+6	3787001	typice	A	core	5	1.3
+6	3787001	typicus	A	core	17	4.5
+6	3787001	figura	A	broad	1415	373.6
+6	3787001	figuraliter	A	core	25	6.6
+6	3787001	figurate	A	core	23	6.1
+6	3787001	parabolice	A	core	0	0.0
+6	3787001	allegorizare	A	core	2	0.5
+6	3787001	sacramentum	A	broad	900	237.7
+6	3787001	tropologia	T	core	16	4.2
+6	3787001	tropologice	T	core	0	0.0
+6	3787001	tropologicus	T	core	0	0.0
+6	3787001	moraliter	T	core	11	2.9
+6	3787001	moralitas	T	core	1	0.3
+6	3787001	sensus moralis / moralis intelligentia	T	core	2	0.5
+6	3787001	moralis	T	broad	45	11.9
+6	3787001	anagoge	N	core	1	0.3
+6	3787001	anagogice	N	core	0	0.0
+6	3787001	anagogicus	N	core	2	0.5
+6	3787001	spiritualiter	S	core	240	63.4
+6	3787001	spiritualis intelligentia	S	core	22	5.8
+6	3787001	spiritualis sensus/intellectus	S	core	16	4.2
+6	3787001	theoria	S	core	2	0.5
+6	3787001	theorice	S	core	0	0.0
+6	3787001	spiritualis	S	broad	1035	273.3
+7	3132142	historia	L	broad	448	143.0
+7	3132142	historice	L	core	10	3.2
+7	3132142	historicus	L	broad	61	19.5
+7	3132142	historialis	L	core	2	0.6
+7	3132142	historialiter	L	core	23	7.3
+7	3132142	iuxta/secundum historiam	L	core	46	14.7
+7	3132142	ad litteram	L	core	30	9.6
+7	3132142	iuxta/secundum litteram	L	core	61	19.5
+7	3132142	litteralis	L	core	3	1.0
+7	3132142	litteraliter	L	core	0	0.0
+7	3132142	littera	L	broad	784	250.3
+7	3132142	allegoria	A	core	124	39.6
+7	3132142	allegorice	A	core	10	3.2
+7	3132142	allegoricus	A	core	29	9.3
+7	3132142	mystice	A	core	46	14.7
+7	3132142	mystica intelligentia / mysticus sensus	A	core	35	11.2
+7	3132142	mysticus	A	broad	150	47.9
+7	3132142	mysterium	A	broad	946	302.0
+7	3132142	typus	A	broad	286	91.3
+7	3132142	typice	A	core	8	2.6
+7	3132142	typicus	A	core	39	12.5
+7	3132142	figura	A	broad	485	154.8
+7	3132142	figuraliter	A	core	50	16.0
+7	3132142	figurate	A	core	20	6.4
+7	3132142	parabolice	A	core	0	0.0
+7	3132142	allegorizare	A	core	2	0.6
+7	3132142	sacramentum	A	broad	774	247.1
+7	3132142	tropologia	T	core	2	0.6
+7	3132142	tropologice	T	core	3	1.0
+7	3132142	tropologicus	T	core	0	0.0
+7	3132142	moraliter	T	core	47	15.0
+7	3132142	moralitas	T	core	18	5.7
+7	3132142	sensus moralis / moralis intelligentia	T	core	22	7.0
+7	3132142	moralis	T	broad	50	16.0
+7	3132142	anagoge	N	core	1	0.3
+7	3132142	anagogice	N	core	0	0.0
+7	3132142	anagogicus	N	core	1	0.3
+7	3132142	spiritualiter	S	core	226	72.2
+7	3132142	spiritualis intelligentia	S	core	53	16.9
+7	3132142	spiritualis sensus/intellectus	S	core	39	12.5
+7	3132142	theoria	S	core	4	1.3
+7	3132142	theorice	S	core	0	0.0
+7	3132142	spiritualis	S	broad	1166	372.3
+8	2277433	historia	L	broad	405	177.8
+8	2277433	historice	L	core	4	1.8
+8	2277433	historicus	L	broad	57	25.0
+8	2277433	historialis	L	core	0	0.0
+8	2277433	historialiter	L	core	39	17.1
+8	2277433	iuxta/secundum historiam	L	core	40	17.6
+8	2277433	ad litteram	L	core	35	15.4
+8	2277433	iuxta/secundum litteram	L	core	118	51.8
+8	2277433	litteralis	L	core	15	6.6
+8	2277433	litteraliter	L	core	0	0.0
+8	2277433	littera	L	broad	954	418.9
+8	2277433	allegoria	A	core	105	46.1
+8	2277433	allegorice	A	core	55	24.1
+8	2277433	allegoricus	A	core	44	19.3
+8	2277433	mystice	A	core	291	127.8
+8	2277433	mystica intelligentia / mysticus sensus	A	core	18	7.9
+8	2277433	mysticus	A	broad	196	86.1
+8	2277433	mysterium	A	broad	872	382.9
+8	2277433	typus	A	broad	165	72.4
+8	2277433	typice	A	core	142	62.4
+8	2277433	typicus	A	core	47	20.6
+8	2277433	figura	A	broad	590	259.1
+8	2277433	figuraliter	A	core	68	29.9
+8	2277433	figurate	A	core	76	33.4
+8	2277433	parabolice	A	core	3	1.3
+8	2277433	allegorizare	A	core	1	0.4
+8	2277433	sacramentum	A	broad	855	375.4
+8	2277433	tropologia	T	core	20	8.8
+8	2277433	tropologice	T	core	6	2.6
+8	2277433	tropologicus	T	core	6	2.6
+8	2277433	moraliter	T	core	74	32.5
+8	2277433	moralitas	T	core	4	1.8
+8	2277433	sensus moralis / moralis intelligentia	T	core	15	6.6
+8	2277433	moralis	T	broad	44	19.3
+8	2277433	anagoge	N	core	13	5.7
+8	2277433	anagogice	N	core	0	0.0
+8	2277433	anagogicus	N	core	7	3.1
+8	2277433	spiritualiter	S	core	308	135.2
+8	2277433	spiritualis intelligentia	S	core	26	11.4
+8	2277433	spiritualis sensus/intellectus	S	core	67	29.4
+8	2277433	theoria	S	core	3	1.3
+8	2277433	theorice	S	core	0	0.0
+8	2277433	spiritualis	S	broad	1458	640.2
+9	11711086	historia	L	broad	1630	139.2
+9	11711086	historice	L	core	16	1.4
+9	11711086	historicus	L	broad	187	16.0
+9	11711086	historialis	L	core	20	1.7
+9	11711086	historialiter	L	core	98	8.4
+9	11711086	iuxta/secundum historiam	L	core	252	21.5
+9	11711086	ad litteram	L	core	228	19.5
+9	11711086	iuxta/secundum litteram	L	core	425	36.3
+9	11711086	litteralis	L	core	45	3.8
+9	11711086	litteraliter	L	core	1	0.1
+9	11711086	littera	L	broad	4403	376.0
+9	11711086	allegoria	A	core	427	36.5
+9	11711086	allegorice	A	core	187	16.0
+9	11711086	allegoricus	A	core	103	8.8
+9	11711086	mystice	A	core	835	71.3
+9	11711086	mystica intelligentia / mysticus sensus	A	core	67	5.7
+9	11711086	mysticus	A	broad	871	74.4
+9	11711086	mysterium	A	broad	4049	345.7
+9	11711086	typus	A	broad	687	58.7
+9	11711086	typice	A	core	191	16.3
+9	11711086	typicus	A	core	137	11.7
+9	11711086	figura	A	broad	2225	190.0
+9	11711086	figuraliter	A	core	145	12.4
+9	11711086	figurate	A	core	127	10.8
+9	11711086	parabolice	A	core	17	1.5
+9	11711086	allegorizare	A	core	14	1.2
+9	11711086	sacramentum	A	broad	4237	361.8
+9	11711086	tropologia	T	core	160	13.7
+9	11711086	tropologice	T	core	67	5.7
+9	11711086	tropologicus	T	core	13	1.1
+9	11711086	moraliter	T	core	173	14.8
+9	11711086	moralitas	T	core	24	2.0
+9	11711086	sensus moralis / moralis intelligentia	T	core	28	2.4
+9	11711086	moralis	T	broad	288	24.6
+9	11711086	anagoge	N	core	99	8.5
+9	11711086	anagogice	N	core	7	0.6
+9	11711086	anagogicus	N	core	23	2.0
+9	11711086	spiritualiter	S	core	1325	113.1
+9	11711086	spiritualis intelligentia	S	core	192	16.4
+9	11711086	spiritualis sensus/intellectus	S	core	176	15.0
+9	11711086	theoria	S	core	142	12.1
+9	11711086	theorice	S	core	0	0.0
+9	11711086	spiritualis	S	broad	5289	451.6
+10	2498750	historia	L	broad	295	118.1
+10	2498750	historice	L	core	2	0.8
+10	2498750	historicus	L	broad	23	9.2
+10	2498750	historialis	L	core	8	3.2
+10	2498750	historialiter	L	core	21	8.4
+10	2498750	iuxta/secundum historiam	L	core	15	6.0
+10	2498750	ad litteram	L	core	24	9.6
+10	2498750	iuxta/secundum litteram	L	core	39	15.6
+10	2498750	litteralis	L	core	16	6.4
+10	2498750	litteraliter	L	core	0	0.0
+10	2498750	littera	L	broad	939	375.8
+10	2498750	allegoria	A	core	16	6.4
+10	2498750	allegorice	A	core	55	22.0
+10	2498750	allegoricus	A	core	13	5.2
+10	2498750	mystice	A	core	83	33.2
+10	2498750	mystica intelligentia / mysticus sensus	A	core	7	2.8
+10	2498750	mysticus	A	broad	69	27.6
+10	2498750	mysterium	A	broad	500	200.1
+10	2498750	typus	A	broad	72	28.8
+10	2498750	typice	A	core	21	8.4
+10	2498750	typicus	A	core	24	9.6
+10	2498750	figura	A	broad	250	100.1
+10	2498750	figuraliter	A	core	10	4.0
+10	2498750	figurate	A	core	9	3.6
+10	2498750	parabolice	A	core	4	1.6
+10	2498750	allegorizare	A	core	5	2.0
+10	2498750	sacramentum	A	broad	623	249.3
+10	2498750	tropologia	T	core	3	1.2
+10	2498750	tropologice	T	core	1	0.4
+10	2498750	tropologicus	T	core	4	1.6
+10	2498750	moraliter	T	core	140	56.0
+10	2498750	moralitas	T	core	8	3.2
+10	2498750	sensus moralis / moralis intelligentia	T	core	1	0.4
+10	2498750	moralis	T	broad	39	15.6
+10	2498750	anagoge	N	core	3	1.2
+10	2498750	anagogice	N	core	0	0.0
+10	2498750	anagogicus	N	core	3	1.2
+10	2498750	spiritualiter	S	core	126	50.4
+10	2498750	spiritualis intelligentia	S	core	18	7.2
+10	2498750	spiritualis sensus/intellectus	S	core	17	6.8
+10	2498750	theoria	S	core	2	0.8
+10	2498750	theorice	S	core	0	0.0
+10	2498750	spiritualis	S	broad	689	275.7
+11	4701560	historia	L	broad	602	128.0
+11	4701560	historice	L	core	3	0.6
+11	4701560	historicus	L	broad	58	12.3
+11	4701560	historialis	L	core	2	0.4
+11	4701560	historialiter	L	core	21	4.5
+11	4701560	iuxta/secundum historiam	L	core	31	6.6
+11	4701560	ad litteram	L	core	61	13.0
+11	4701560	iuxta/secundum litteram	L	core	46	9.8
+11	4701560	litteralis	L	core	26	5.5
+11	4701560	litteraliter	L	core	2	0.4
+11	4701560	littera	L	broad	2085	443.5
+11	4701560	allegoria	A	core	34	7.2
+11	4701560	allegorice	A	core	12	2.6
+11	4701560	allegoricus	A	core	15	3.2
+11	4701560	mystice	A	core	91	19.4
+11	4701560	mystica intelligentia / mysticus sensus	A	core	12	2.6
+11	4701560	mysticus	A	broad	213	45.3
+11	4701560	mysterium	A	broad	1093	232.5
+11	4701560	typus	A	broad	100	21.3
+11	4701560	typice	A	core	29	6.2
+11	4701560	typicus	A	core	28	6.0
+11	4701560	figura	A	broad	579	123.2
+11	4701560	figuraliter	A	core	17	3.6
+11	4701560	figurate	A	core	16	3.4
+11	4701560	parabolice	A	core	2	0.4
+11	4701560	allegorizare	A	core	1	0.2
+11	4701560	sacramentum	A	broad	2182	464.1
+11	4701560	tropologia	T	core	5	1.1
+11	4701560	tropologice	T	core	1	0.2
+11	4701560	tropologicus	T	core	0	0.0
+11	4701560	moraliter	T	core	4	0.9
+11	4701560	moralitas	T	core	18	3.8
+11	4701560	sensus moralis / moralis intelligentia	T	core	2	0.4
+11	4701560	moralis	T	broad	55	11.7
+11	4701560	anagoge	N	core	1	0.2
+11	4701560	anagogice	N	core	0	0.0
+11	4701560	anagogicus	N	core	0	0.0
+11	4701560	spiritualiter	S	core	232	49.3
+11	4701560	spiritualis intelligentia	S	core	61	13.0
+11	4701560	spiritualis sensus/intellectus	S	core	14	3.0
+11	4701560	theoria	S	core	8	1.7
+11	4701560	theorice	S	core	1	0.2
+11	4701560	spiritualis	S	broad	1686	358.6
+12	26552555	historia	L	broad	2874	108.2
+12	26552555	historice	L	core	72	2.7
+12	26552555	historicus	L	broad	310	11.7
+12	26552555	historialis	L	core	43	1.6
+12	26552555	historialiter	L	core	100	3.8
+12	26552555	iuxta/secundum historiam	L	core	181	6.8
+12	26552555	ad litteram	L	core	941	35.4
+12	26552555	iuxta/secundum litteram	L	core	504	19.0
+12	26552555	litteralis	L	core	266	10.0
+12	26552555	litteraliter	L	core	36	1.4
+12	26552555	littera	L	broad	11687	440.1
+12	26552555	allegoria	A	core	516	19.4
+12	26552555	allegorice	A	core	287	10.8
+12	26552555	allegoricus	A	core	154	5.8
+12	26552555	mystice	A	core	1100	41.4
+12	26552555	mystica intelligentia / mysticus sensus	A	core	174	6.6
+12	26552555	mysticus	A	broad	1250	47.1
+12	26552555	mysterium	A	broad	5411	203.8
+12	26552555	typus	A	broad	898	33.8
+12	26552555	typice	A	core	102	3.8
+12	26552555	typicus	A	core	129	4.9
+12	26552555	figura	A	broad	3363	126.7
+12	26552555	figuraliter	A	core	145	5.5
+12	26552555	figurate	A	core	128	4.8
+12	26552555	parabolice	A	core	55	2.1
+12	26552555	allegorizare	A	core	8	0.3
+12	26552555	sacramentum	A	broad	11515	433.7
+12	26552555	tropologia	T	core	131	4.9
+12	26552555	tropologice	T	core	69	2.6
+12	26552555	tropologicus	T	core	23	0.9
+12	26552555	moraliter	T	core	334	12.6
+12	26552555	moralitas	T	core	177	6.7
+12	26552555	sensus moralis / moralis intelligentia	T	core	71	2.7
+12	26552555	moralis	T	broad	511	19.2
+12	26552555	anagoge	N	core	131	4.9
+12	26552555	anagogice	N	core	43	1.6
+12	26552555	anagogicus	N	core	42	1.6
+12	26552555	spiritualiter	S	core	2101	79.1
+12	26552555	spiritualis intelligentia	S	core	399	15.0
+12	26552555	spiritualis sensus/intellectus	S	core	261	9.8
+12	26552555	theoria	S	core	76	2.9
+12	26552555	theorice	S	core	3	0.1
+12	26552555	spiritualis	S	broad	11608	437.2
+13	5145657	historia	L	broad	433	84.1
+13	5145657	historice	L	core	11	2.1
+13	5145657	historicus	L	broad	56	10.9
+13	5145657	historialis	L	core	15	2.9
+13	5145657	historialiter	L	core	16	3.1
+13	5145657	iuxta/secundum historiam	L	core	15	2.9
+13	5145657	ad litteram	L	core	112	21.8
+13	5145657	iuxta/secundum litteram	L	core	28	5.4
+13	5145657	litteralis	L	core	63	12.2
+13	5145657	litteraliter	L	core	3	0.6
+13	5145657	littera	L	broad	5457	1060.5
+13	5145657	allegoria	A	core	76	14.8
+13	5145657	allegorice	A	core	73	14.2
+13	5145657	allegoricus	A	core	47	9.1
+13	5145657	mystice	A	core	81	15.7
+13	5145657	mystica intelligentia / mysticus sensus	A	core	21	4.1
+13	5145657	mysticus	A	broad	129	25.1
+13	5145657	mysterium	A	broad	870	169.1
+13	5145657	typus	A	broad	159	30.9
+13	5145657	typice	A	core	36	7.0
+13	5145657	typicus	A	core	29	5.6
+13	5145657	figura	A	broad	664	129.0
+13	5145657	figuraliter	A	core	29	5.6
+13	5145657	figurate	A	core	69	13.4
+13	5145657	parabolice	A	core	1	0.2
+13	5145657	allegorizare	A	core	1	0.2
+13	5145657	sacramentum	A	broad	2120	412.0
+13	5145657	tropologia	T	core	47	9.1
+13	5145657	tropologice	T	core	11	2.1
+13	5145657	tropologicus	T	core	18	3.5
+13	5145657	moraliter	T	core	89	17.3
+13	5145657	moralitas	T	core	14	2.7
+13	5145657	sensus moralis / moralis intelligentia	T	core	21	4.1
+13	5145657	moralis	T	broad	106	20.6
+13	5145657	anagoge	N	core	19	3.7
+13	5145657	anagogice	N	core	12	2.3
+13	5145657	anagogicus	N	core	23	4.5
+13	5145657	spiritualiter	S	core	503	97.8
+13	5145657	spiritualis intelligentia	S	core	60	11.7
+13	5145657	spiritualis sensus/intellectus	S	core	36	7.0
+13	5145657	theoria	S	core	7	1.4
+13	5145657	theorice	S	core	1	0.2
+13	5145657	spiritualis	S	broad	2644	513.8
+14	130202	historia	L	broad	18	138.2
+14	130202	historice	L	core	0	0.0
+14	130202	historicus	L	broad	2	15.4
+14	130202	historialis	L	core	0	0.0
+14	130202	historialiter	L	core	0	0.0
+14	130202	iuxta/secundum historiam	L	core	0	0.0
+14	130202	ad litteram	L	core	5	38.4
+14	130202	iuxta/secundum litteram	L	core	0	0.0
+14	130202	litteralis	L	core	32	245.8
+14	130202	litteraliter	L	core	0	0.0
+14	130202	littera	L	broad	27	207.4
+14	130202	allegoria	A	core	2	15.4
+14	130202	allegorice	A	core	1	7.7
+14	130202	allegoricus	A	core	4	30.7
+14	130202	mystice	A	core	2	15.4
+14	130202	mystica intelligentia / mysticus sensus	A	core	9	69.1
+14	130202	mysticus	A	broad	17	130.6
+14	130202	mysterium	A	broad	11	84.5
+14	130202	typus	A	broad	0	0.0
+14	130202	typice	A	core	0	0.0
+14	130202	typicus	A	core	0	0.0
+14	130202	figura	A	broad	3	23.0
+14	130202	figuraliter	A	core	0	0.0
+14	130202	figurate	A	core	0	0.0
+14	130202	parabolice	A	core	0	0.0
+14	130202	allegorizare	A	core	0	0.0
+14	130202	sacramentum	A	broad	8	61.4
+14	130202	tropologia	T	core	0	0.0
+14	130202	tropologice	T	core	0	0.0
+14	130202	tropologicus	T	core	1	7.7
+14	130202	moraliter	T	core	1	7.7
+14	130202	moralitas	T	core	1	7.7
+14	130202	sensus moralis / moralis intelligentia	T	core	2	15.4
+14	130202	moralis	T	broad	4	30.7
+14	130202	anagoge	N	core	2	15.4
+14	130202	anagogice	N	core	1	7.7
+14	130202	anagogicus	N	core	4	30.7
+14	130202	spiritualiter	S	core	0	0.0
+14	130202	spiritualis intelligentia	S	core	0	0.0
+14	130202	spiritualis sensus/intellectus	S	core	1	7.7
+14	130202	theoria	S	core	0	0.0
+14	130202	theorice	S	core	0	0.0
+14	130202	spiritualis	S	broad	15	115.2
+15	127653	historia	L	broad	17	133.2
+15	127653	historice	L	core	0	0.0
+15	127653	historicus	L	broad	4	31.3
+15	127653	historialis	L	core	3	23.5
+15	127653	historialiter	L	core	1	7.8
+15	127653	iuxta/secundum historiam	L	core	0	0.0
+15	127653	ad litteram	L	core	10	78.3
+15	127653	iuxta/secundum litteram	L	core	1	7.8
+15	127653	litteralis	L	core	219	1715.6
+15	127653	litteraliter	L	core	3	23.5
+15	127653	littera	L	broad	143	1120.2
+15	127653	allegoria	A	core	3	23.5
+15	127653	allegorice	A	core	4	31.3
+15	127653	allegoricus	A	core	5	39.2
+15	127653	mystice	A	core	0	0.0
+15	127653	mystica intelligentia / mysticus sensus	A	core	17	133.2
+15	127653	mysticus	A	broad	16	125.3
+15	127653	mysterium	A	broad	31	242.8
+15	127653	typus	A	broad	0	0.0
+15	127653	typice	A	core	0	0.0
+15	127653	typicus	A	core	0	0.0
+15	127653	figura	A	broad	17	133.2
+15	127653	figuraliter	A	core	0	0.0
+15	127653	figurate	A	core	1	7.8
+15	127653	parabolice	A	core	1	7.8
+15	127653	allegorizare	A	core	1	7.8
+15	127653	sacramentum	A	broad	32	250.7
+15	127653	tropologia	T	core	1	7.8
+15	127653	tropologice	T	core	0	0.0
+15	127653	tropologicus	T	core	4	31.3
+15	127653	moraliter	T	core	3	23.5
+15	127653	moralitas	T	core	0	0.0
+15	127653	sensus moralis / moralis intelligentia	T	core	0	0.0
+15	127653	moralis	T	broad	4	31.3
+15	127653	anagoge	N	core	1	7.8
+15	127653	anagogice	N	core	4	31.3
+15	127653	anagogicus	N	core	7	54.8
+15	127653	spiritualiter	S	core	3	23.5
+15	127653	spiritualis intelligentia	S	core	7	54.8
+15	127653	spiritualis sensus/intellectus	S	core	31	242.8
+15	127653	theoria	S	core	0	0.0
+15	127653	theorice	S	core	0	0.0
+15	127653	spiritualis	S	broad	43	336.9
+16	167936	historia	L	broad	38	226.3
+16	167936	historice	L	core	0	0.0
+16	167936	historicus	L	broad	0	0.0
+16	167936	historialis	L	core	0	0.0
+16	167936	historialiter	L	core	0	0.0
+16	167936	iuxta/secundum historiam	L	core	1	6.0
+16	167936	ad litteram	L	core	4	23.8
+16	167936	iuxta/secundum litteram	L	core	5	29.8
+16	167936	litteralis	L	core	0	0.0
+16	167936	litteraliter	L	core	0	0.0
+16	167936	littera	L	broad	115	684.8
+16	167936	allegoria	A	core	9	53.6
+16	167936	allegorice	A	core	1	6.0
+16	167936	allegoricus	A	core	1	6.0
+16	167936	mystice	A	core	0	0.0
+16	167936	mystica intelligentia / mysticus sensus	A	core	0	0.0
+16	167936	mysticus	A	broad	3	17.9
+16	167936	mysterium	A	broad	11	65.5
+16	167936	typus	A	broad	1	6.0
+16	167936	typice	A	core	0	0.0
+16	167936	typicus	A	core	0	0.0
+16	167936	figura	A	broad	9	53.6
+16	167936	figuraliter	A	core	0	0.0
+16	167936	figurate	A	core	0	0.0
+16	167936	parabolice	A	core	0	0.0
+16	167936	allegorizare	A	core	1	6.0
+16	167936	sacramentum	A	broad	30	178.6
+16	167936	tropologia	T	core	0	0.0
+16	167936	tropologice	T	core	0	0.0
+16	167936	tropologicus	T	core	0	0.0
+16	167936	moraliter	T	core	0	0.0
+16	167936	moralitas	T	core	0	0.0
+16	167936	sensus moralis / moralis intelligentia	T	core	0	0.0
+16	167936	moralis	T	broad	1	6.0
+16	167936	anagoge	N	core	0	0.0
+16	167936	anagogice	N	core	0	0.0
+16	167936	anagogicus	N	core	0	0.0
+16	167936	spiritualiter	S	core	11	65.5
+16	167936	spiritualis intelligentia	S	core	2	11.9
+16	167936	spiritualis sensus/intellectus	S	core	0	0.0
+16	167936	theoria	S	core	0	0.0
+16	167936	theorice	S	core	0	0.0
+16	167936	spiritualis	S	broad	67	399.0
+17	33569	historia	L	broad	63	1876.7
+17	33569	historice	L	core	0	0.0
+17	33569	historicus	L	broad	7	208.5
+17	33569	historialis	L	core	0	0.0
+17	33569	historialiter	L	core	0	0.0
+17	33569	iuxta/secundum historiam	L	core	0	0.0
+17	33569	ad litteram	L	core	0	0.0
+17	33569	iuxta/secundum litteram	L	core	0	0.0
+17	33569	litteralis	L	core	1	29.8
+17	33569	litteraliter	L	core	0	0.0
+17	33569	littera	L	broad	24	714.9
+17	33569	allegoria	A	core	0	0.0
+17	33569	allegorice	A	core	0	0.0
+17	33569	allegoricus	A	core	0	0.0
+17	33569	mystice	A	core	0	0.0
+17	33569	mystica intelligentia / mysticus sensus	A	core	0	0.0
+17	33569	mysticus	A	broad	0	0.0
+17	33569	mysterium	A	broad	0	0.0
+17	33569	typus	A	broad	2	59.6
+17	33569	typice	A	core	0	0.0
+17	33569	typicus	A	core	0	0.0
+17	33569	figura	A	broad	4	119.2
+17	33569	figuraliter	A	core	0	0.0
+17	33569	figurate	A	core	0	0.0
+17	33569	parabolice	A	core	0	0.0
+17	33569	allegorizare	A	core	0	0.0
+17	33569	sacramentum	A	broad	2	59.6
+17	33569	tropologia	T	core	0	0.0
+17	33569	tropologice	T	core	0	0.0
+17	33569	tropologicus	T	core	0	0.0
+17	33569	moraliter	T	core	0	0.0
+17	33569	moralitas	T	core	0	0.0
+17	33569	sensus moralis / moralis intelligentia	T	core	0	0.0
+17	33569	moralis	T	broad	4	119.2
+17	33569	anagoge	N	core	0	0.0
+17	33569	anagogice	N	core	0	0.0
+17	33569	anagogicus	N	core	0	0.0
+17	33569	spiritualiter	S	core	0	0.0
+17	33569	spiritualis intelligentia	S	core	0	0.0
+17	33569	spiritualis sensus/intellectus	S	core	0	0.0
+17	33569	theoria	S	core	1	29.8
+17	33569	theorice	S	core	0	0.0
+17	33569	spiritualis	S	broad	3	89.4
+18	13051	historia	L	broad	3	229.9
+18	13051	historice	L	core	0	0.0
+18	13051	historicus	L	broad	0	0.0
+18	13051	historialis	L	core	0	0.0
+18	13051	historialiter	L	core	0	0.0
+18	13051	iuxta/secundum historiam	L	core	0	0.0
+18	13051	ad litteram	L	core	0	0.0
+18	13051	iuxta/secundum litteram	L	core	0	0.0
+18	13051	litteralis	L	core	2	153.2
+18	13051	litteraliter	L	core	0	0.0
+18	13051	littera	L	broad	25	1915.6
+18	13051	allegoria	A	core	0	0.0
+18	13051	allegorice	A	core	0	0.0
+18	13051	allegoricus	A	core	0	0.0
+18	13051	mystice	A	core	0	0.0
+18	13051	mystica intelligentia / mysticus sensus	A	core	0	0.0
+18	13051	mysticus	A	broad	0	0.0
+18	13051	mysterium	A	broad	1	76.6
+18	13051	typus	A	broad	0	0.0
+18	13051	typice	A	core	0	0.0
+18	13051	typicus	A	core	0	0.0
+18	13051	figura	A	broad	0	0.0
+18	13051	figuraliter	A	core	0	0.0
+18	13051	figurate	A	core	0	0.0
+18	13051	parabolice	A	core	0	0.0
+18	13051	allegorizare	A	core	0	0.0
+18	13051	sacramentum	A	broad	4	306.5
+18	13051	tropologia	T	core	0	0.0
+18	13051	tropologice	T	core	0	0.0
+18	13051	tropologicus	T	core	0	0.0
+18	13051	moraliter	T	core	0	0.0
+18	13051	moralitas	T	core	0	0.0
+18	13051	sensus moralis / moralis intelligentia	T	core	0	0.0
+18	13051	moralis	T	broad	0	0.0
+18	13051	anagoge	N	core	0	0.0
+18	13051	anagogice	N	core	0	0.0
+18	13051	anagogicus	N	core	0	0.0
+18	13051	spiritualiter	S	core	0	0.0
+18	13051	spiritualis intelligentia	S	core	0	0.0
+18	13051	spiritualis sensus/intellectus	S	core	0	0.0
+18	13051	theoria	S	core	0	0.0
+18	13051	theorice	S	core	0	0.0
+18	13051	spiritualis	S	broad	16	1226.0
+19	11948	historia	L	broad	0	0.0
+19	11948	historice	L	core	0	0.0
+19	11948	historicus	L	broad	0	0.0
+19	11948	historialis	L	core	0	0.0
+19	11948	historialiter	L	core	0	0.0
+19	11948	iuxta/secundum historiam	L	core	0	0.0
+19	11948	ad litteram	L	core	0	0.0
+19	11948	iuxta/secundum litteram	L	core	0	0.0
+19	11948	litteralis	L	core	0	0.0
+19	11948	litteraliter	L	core	0	0.0
+19	11948	littera	L	broad	0	0.0
+19	11948	allegoria	A	core	0	0.0
+19	11948	allegorice	A	core	0	0.0
+19	11948	allegoricus	A	core	0	0.0
+19	11948	mystice	A	core	0	0.0
+19	11948	mystica intelligentia / mysticus sensus	A	core	0	0.0
+19	11948	mysticus	A	broad	0	0.0
+19	11948	mysterium	A	broad	0	0.0
+19	11948	typus	A	broad	0	0.0
+19	11948	typice	A	core	0	0.0
+19	11948	typicus	A	core	0	0.0
+19	11948	figura	A	broad	0	0.0
+19	11948	figuraliter	A	core	0	0.0
+19	11948	figurate	A	core	0	0.0
+19	11948	parabolice	A	core	0	0.0
+19	11948	allegorizare	A	core	0	0.0
+19	11948	sacramentum	A	broad	0	0.0
+19	11948	tropologia	T	core	0	0.0
+19	11948	tropologice	T	core	0	0.0
+19	11948	tropologicus	T	core	0	0.0
+19	11948	moraliter	T	core	0	0.0
+19	11948	moralitas	T	core	0	0.0
+19	11948	sensus moralis / moralis intelligentia	T	core	0	0.0
+19	11948	moralis	T	broad	0	0.0
+19	11948	anagoge	N	core	0	0.0
+19	11948	anagogice	N	core	0	0.0
+19	11948	anagogicus	N	core	0	0.0
+19	11948	spiritualiter	S	core	0	0.0
+19	11948	spiritualis intelligentia	S	core	0	0.0
+19	11948	spiritualis sensus/intellectus	S	core	0	0.0
+19	11948	theoria	S	core	0	0.0
+19	11948	theorice	S	core	0	0.0
+19	11948	spiritualis	S	broad	0	0.0
+undated	11406285	historia	L	broad	1460	128.0
+undated	11406285	historice	L	core	27	2.4
+undated	11406285	historicus	L	broad	231	20.3
+undated	11406285	historialis	L	core	58	5.1
+undated	11406285	historialiter	L	core	65	5.7
+undated	11406285	iuxta/secundum historiam	L	core	91	8.0
+undated	11406285	ad litteram	L	core	151	13.2
+undated	11406285	iuxta/secundum litteram	L	core	184	16.1
+undated	11406285	litteralis	L	core	45	3.9
+undated	11406285	litteraliter	L	core	4	0.4
+undated	11406285	littera	L	broad	5157	452.1
+undated	11406285	allegoria	A	core	146	12.8
+undated	11406285	allegorice	A	core	60	5.3
+undated	11406285	allegoricus	A	core	58	5.1
+undated	11406285	mystice	A	core	188	16.5
+undated	11406285	mystica intelligentia / mysticus sensus	A	core	29	2.5
+undated	11406285	mysticus	A	broad	339	29.7
+undated	11406285	mysterium	A	broad	2811	246.4
+undated	11406285	typus	A	broad	499	43.7
+undated	11406285	typice	A	core	81	7.1
+undated	11406285	typicus	A	core	31	2.7
+undated	11406285	figura	A	broad	1509	132.3
+undated	11406285	figuraliter	A	core	87	7.6
+undated	11406285	figurate	A	core	48	4.2
+undated	11406285	parabolice	A	core	9	0.8
+undated	11406285	allegorizare	A	core	2	0.2
+undated	11406285	sacramentum	A	broad	3270	286.7
+undated	11406285	tropologia	T	core	55	4.8
+undated	11406285	tropologice	T	core	13	1.1
+undated	11406285	tropologicus	T	core	15	1.3
+undated	11406285	moraliter	T	core	109	9.6
+undated	11406285	moralitas	T	core	27	2.4
+undated	11406285	sensus moralis / moralis intelligentia	T	core	25	2.2
+undated	11406285	moralis	T	broad	184	16.1
+undated	11406285	anagoge	N	core	25	2.2
+undated	11406285	anagogice	N	core	7	0.6
+undated	11406285	anagogicus	N	core	14	1.2
+undated	11406285	spiritualiter	S	core	783	68.6
+undated	11406285	spiritualis intelligentia	S	core	120	10.5
+undated	11406285	spiritualis sensus/intellectus	S	core	91	8.0
+undated	11406285	theoria	S	core	31	2.7
+undated	11406285	theorice	S	core	2	0.2
+undated	11406285	spiritualis	S	broad	4312	378.0

@@ -1,0 +1,18 @@
+__pycache__/
+*.pyc
+.DS_Store
+# in-copyright de Lubac sources and working files stay out (also in studies/sensus/.gitignore)
+studies/*/sources/
+studies/*/working/
+studies/canon/spine/
+# de Lubac ledger: his citations as printed (in copyright) stay out of the public repo.
+# They are versioned in a separate local-only git dir: see tools/private-git.
+studies/sensus/ledger/claims-*.tsv
+studies/sensus/ledger/colonly.tsv
+studies/sensus/ledger/notes.tsv
+studies/sensus/ledger/pages.tsv
+studies/sensus/ledger/refs.tsv
+studies/sensus/ledger/quote-check.tsv
+studies/sensus/ledger/lubac-theory-vs-census.tsv
+studies/sensus/ledger/lubac-theory-misses.tsv
+site/.env*

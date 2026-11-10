@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 80" role="img" aria-label="Wroot Press">
+  <title>Wroot Press</title>
+  <text x="20" y="54"
+        font-family="'EB Garamond', Garamond, 'Adobe Garamond Pro', Georgia, serif"
+        font-size="42"
+        font-weight="500"
+        letter-spacing="0.4"
+        fill="#2C3E4A">Wroot<tspan dx="8" font-style="italic" fill="#5B6B76">Press</tspan></text>
+</svg>

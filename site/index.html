@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Scriptura — what the Latin Fathers quoted</title>
+<meta name="description" content="A preliminary count of the Bible in Migne's Patrologia Latina: which verses each age quoted most, where the four senses of Scripture are first stated, and what a machine can and cannot find.">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Scriptura — what the Latin Fathers quoted">
+<meta property="og:description" content="A preliminary count of the Bible in Migne's Patrologia Latina: which verses each age quoted most, where the four senses are first stated, and what only a reader finds.">
+<meta property="og:url" content="https://scriptura.wrootpress.com/">
+<meta property="og:image" content="https://scriptura.wrootpress.com/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Scriptura, Wroot Press: what the Latin Fathers quoted. 399,679 scripture citations in Migne's Latin Fathers, counted.">
+<meta name="twitter:card" content="summary_large_image">
+<style>
+@font-face{font-family:"EB Garamond";src:url("/fonts/EBGaramond-VF.ttf") format("truetype");font-weight:400 800;font-style:normal;font-display:swap}
+@font-face{font-family:"EB Garamond";src:url("/fonts/EBGaramond-Italic-VF.ttf") format("truetype");font-weight:400 800;font-style:italic;font-display:swap}
+@font-face{font-family:"Inter";src:url("/fonts/Inter-VF.ttf") format("truetype");font-weight:100 900;font-display:swap}
+:root{--fen:#2C3E4A;--fen-mist:#5B6B76;--ink:#1A2128;--reed:#C9A86A;--parchment:#F7F3EC;--ivory:#FBF8F1;--s100:#E7E2D7;--s200:#D6D0C2;--s600:#54595E}
+*{box-sizing:border-box}
+html{background:var(--parchment)}
+body{margin:0;overflow-wrap:break-word;color:var(--ink);font:400 17px/1.65 "Inter",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+.wrap{max-width:860px;margin:0 auto;padding:0 24px}
+header.top{border-bottom:1px solid var(--s100)}
+header.top .wrap{display:flex;align-items:center;justify-content:space-between;height:64px}
+header.top img{height:34px;width:auto;display:block}
+header.top span{font-size:12px;letter-spacing:1.2px;text-transform:uppercase;color:var(--fen-mist)}
+.eyebrow{font-size:12px;letter-spacing:1.2px;text-transform:uppercase;color:var(--fen-mist);font-weight:500;margin:0}
+h1,h2,h3{font-family:"EB Garamond",Garamond,Georgia,serif;font-weight:500;color:var(--fen);line-height:1.15}
+h1{font-size:52px;margin:12px 0 0;letter-spacing:-.01em}
+.sub{font-family:"EB Garamond",Garamond,Georgia,serif;font-style:italic;font-size:23px;color:var(--fen-mist);margin:14px 0 0;line-height:1.4}
+.hero{padding:96px 0 48px}
+section{padding:48px 0;border-top:1px solid var(--s100)}
+h2{font-size:34px;margin:6px 0 16px}
+h3{font-size:22px;margin:28px 0 8px}
+p{margin:0 0 14px}
+.lead{font-size:18px}
+.note{font-size:14px;color:var(--s600)}
+.card{background:var(--ivory);border:1px solid var(--s100);border-radius:6px;padding:20px 22px;margin:20px 0}
+.ages{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin:24px 0}
+.age{background:var(--ivory);border:1px solid var(--s100);border-radius:6px;padding:16px 18px}
+.age h3{margin:0 0 2px;font-size:21px}
+.age .n{font-size:13px;color:var(--s600);margin-bottom:10px}
+.age ol{margin:0;padding:0;list-style:none}
+.age li{padding:7px 0;border-top:1px solid var(--s100);font-size:14px;line-height:1.4}
+.age li:first-child{border-top:0}
+.age .ref{font-weight:600;color:var(--fen)}
+.age .ct{float:right;color:var(--s600);font-variant-numeric:tabular-nums}
+.age .la{display:block;font-family:"EB Garamond",Garamond,Georgia,serif;font-style:italic;font-size:16px;color:var(--ink)}
+table{border-collapse:collapse;width:100%;font-size:15px;margin:12px 0 8px;font-variant-numeric:tabular-nums}
+th{text-align:left;font-weight:600;color:var(--fen-mist);font-size:13px;border-bottom:1px solid var(--s200);padding:8px 10px}
+td{border-bottom:1px solid var(--s100);padding:8px 10px;vertical-align:top}
+td.r,th.r{text-align:right}
+blockquote{margin:16px 0;padding:0 0 0 18px;border-left:2px solid var(--s200);font-family:"EB Garamond",Garamond,Georgia,serif;font-size:20px;color:var(--fen)}
+a{color:var(--fen);text-decoration:underline;text-decoration-color:var(--s200);text-underline-offset:3px}
+a:hover{text-decoration-color:var(--reed)}
+.big{font-family:"EB Garamond",Garamond,Georgia,serif;font-size:44px;color:var(--fen);line-height:1;font-weight:500}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin:28px 0 0}
+.stats>div{border-top:2px solid var(--fen);padding-top:12px;font-size:14px;color:var(--s600);line-height:1.4}
+.stats>div:first-child{border-top-color:var(--reed)}
+.stats .big{display:block;margin-bottom:8px}
+footer{border-top:1px solid var(--s100);padding:32px 0 64px;font-size:13px;color:var(--s600)}
+@media (max-width:760px){.ages,.stats{grid-template-columns:1fr}h1{font-size:40px}.hero{padding:56px 0 32px}}
+</style>
+</head>
+<body>
+<header class="top"><div class="wrap"><a href="https://wrootpress.com"><img src="/wordmark.svg" alt="Wroot Press" width="136" height="34"></a><span>Preliminary findings</span></div></header>
+
+<main class="wrap">
+<div class="hero">
+  <p class="eyebrow">Scriptura</p>
+  <h1>What the Latin Fathers quoted</h1>
+  <p class="sub">A first count of the Bible in Migne’s <span style="font-style:normal">Patrologia Latina</span>, from Tertullian to Innocent III.</p>
+  <div class="stats">
+    <div><span class="big">399,679</span>scripture citations printed in the text by Migne’s editors, parsed and keyed to the verse</div>
+    <div><span class="big">3.8%</span>of Vulgate verses never quoted anywhere in the 221 volumes, as far as the count can see</div>
+    <div><span class="big">269</span>places where an author names three or more senses of Scripture within a few lines</div>
+  </div>
+</div>
+
+<section>
+  <p class="eyebrow">1 · The working canon</p>
+  <h2>Each age leaned on different verses</h2>
+  <p class="lead">Count the distinct works that cite each verse, using only the citations Migne’s editors identified in the text, and the ages separate cleanly.</p>
+  <div class="ages">
+    <div class="age"><h3>To 600</h3><div class="n">558 works</div><ol>
+      <li><span class="ct">119</span><span class="ref">John 1:1</span><span class="la">In principio erat Verbum</span></li>
+      <li><span class="ct">102</span><span class="ref">John 1:14</span><span class="la">Et Verbum caro factum est</span></li>
+      <li><span class="ct">92</span><span class="ref">John 10:30</span><span class="la">Ego et Pater unum sumus</span></li>
+      <li><span class="ct">89</span><span class="ref">John 1:3</span><span class="la">Omnia per ipsum facta sunt</span></li>
+      <li><span class="ct">84</span><span class="ref">John 14:6</span><span class="la">Ego sum via, et veritas, et vita</span></li>
+      <li><span class="ct">83</span><span class="ref">Phil 2:6</span><span class="la">qui cum in forma Dei esset</span></li>
+      <li><span class="ct">74</span><span class="ref">Rom 5:5</span><span class="la">caritas Dei diffusa est in cordibus nostris</span></li>
+      <li><span class="ct">73</span><span class="ref">Matt 28:19</span><span class="la">baptizantes eos in nomine Patris</span></li>
+      <li><span class="ct">70</span><span class="ref">Gen 1:26</span><span class="la">Faciamus hominem ad imaginem</span></li>
+      <li><span class="ct">66</span><span class="ref">1 Tim 2:5</span><span class="la">unus et mediator Dei et hominum</span></li>
+    </ol></div>
+    <div class="age"><h3>601–1000</h3><div class="n">406 works</div><ol>
+      <li><span class="ct">46</span><span class="ref">John 14:6</span><span class="la">Ego sum via, et veritas, et vita</span></li>
+      <li><span class="ct">45</span><span class="ref">Matt 25:34</span><span class="la">Venite benedicti Patris mei</span></li>
+      <li><span class="ct">39</span><span class="ref">Matt 11:29</span><span class="la">discite a me, quia mitis sum</span></li>
+      <li><span class="ct">34</span><span class="ref">Matt 28:20</span><span class="la">ecce ego vobiscum sum omnibus diebus</span></li>
+      <li><span class="ct">34</span><span class="ref">John 1:1</span><span class="la">In principio erat Verbum</span></li>
+      <li><span class="ct">34</span><span class="ref">Jas 1:17</span><span class="la">Omne datum optimum</span></li>
+      <li><span class="ct">33</span><span class="ref">John 1:14</span><span class="la">Et Verbum caro factum est</span></li>
+      <li><span class="ct">31</span><span class="ref">Matt 5:44</span><span class="la">Diligite inimicos vestros</span></li>
+      <li><span class="ct">31</span><span class="ref">Matt 28:19</span><span class="la">baptizantes eos in nomine Patris</span></li>
+      <li><span class="ct">30</span><span class="ref">Matt 25:41</span><span class="la">Discedite a me maledicti</span></li>
+    </ol></div>
+    <div class="age"><h3>1001–1216</h3><div class="n">583 works</div><ol>
+      <li><span class="ct">56</span><span class="ref">John 14:6</span><span class="la">Ego sum via, et veritas, et vita</span></li>
+      <li><span class="ct">53</span><span class="ref">Matt 11:29</span><span class="la">discite a me, quia mitis sum</span></li>
+      <li><span class="ct">49</span><span class="ref">John 1:1</span><span class="la">In principio erat Verbum</span></li>
+      <li><span class="ct">49</span><span class="ref">Phil 3:20</span><span class="la">Nostra autem conversatio in caelis est</span></li>
+      <li><span class="ct">47</span><span class="ref">Jas 1:17</span><span class="la">Omne datum optimum</span></li>
+      <li><span class="ct">47</span><span class="ref">John 1:14</span><span class="la">Et Verbum caro factum est</span></li>
+      <li><span class="ct">42</span><span class="ref">Acts 4:32</span><span class="la">cor unum et anima una</span></li>
+      <li><span class="ct">41</span><span class="ref">Gal 6:14</span><span class="la">Mihi autem absit gloriari, nisi in cruce</span></li>
+      <li><span class="ct">41</span><span class="ref">Phil 1:23</span><span class="la">desiderium habens dissolvi</span></li>
+      <li><span class="ct">40</span><span class="ref">Matt 5:3</span><span class="la">Beati pauperes spiritu</span></li>
+    </ol></div>
+  </div>
+  <p><strong>To 600</strong>, the list is Christology and the Trinity: the prologue of John, “I and the Father are one,” the self-emptying of Philippians 2, the one mediator. The controversies of the fourth and fifth centuries are visible in the arithmetic.</p>
+  <p><strong>601–1000</strong> turns to judgment and the Christian life: the sheep and the goats of Matthew 25, “learn of me, for I am meek,” love of enemies.</p>
+  <p><strong>1001–1216</strong> reads like a rule of life: “one heart and one soul” (Acts 4:32, the opening of the Rule of Augustine that the canons regular lived by), “our citizenship is in heaven,” “I desire to be dissolved,” “God forbid that I should glory, save in the cross,” “blessed are the poor in spirit.”</p>
+  <div class="card note">Counts are distinct works, not occurrences, so one long commentary does not swamp the list. Migne’s volumes reprint older editions whose editors cited differently; only the volumes that cite to the verse contribute here. Matching the text against the Vulgate as well (below) finds every verse but 1,356 of 35,811 quoted somewhere. The unquoted cluster in Baruch, 1–2 Maccabees and Ezra–Nehemiah.</div>
+</section>
+
+<section>
+  <p class="eyebrow">2 · The four senses</p>
+  <h2>Where the senses of Scripture are stated</h2>
+  <p class="lead">Henri de Lubac’s <em>Exégèse médiévale</em> argued that the Latin Middle Ages read Scripture under four senses: history, allegory, tropology and anagogy. Here the PL is searched for every place that names three or more of them together.</p>
+  <p>The search finds 269 such places. Two independent codings agree on what kind of passage each is (kappa 0.93), and 132 are statements of theory, not passing lists or applications.</p>
+  <table>
+    <thead><tr><th>Earliest statements of all four</th><th class="r">d.</th><th>PL</th></tr></thead>
+    <tbody>
+      <tr><td>John Cassian, <em>Conferences</em> XIV.8</td><td class="r">435</td><td>49, 962 C</td></tr>
+      <tr><td>Eucherius of Lyon, <em>Formulae spiritalis intelligentiae</em></td><td class="r">449</td><td>50, 728 B</td></tr>
+      <tr><td>Bede, <em>De schematibus et tropis</em></td><td class="r">735</td><td>90, 185 B</td></tr>
+      <tr><td>Bede, <em>De tabernaculo</em> — first in the order history, allegory, tropology, anagogy</td><td class="r">735</td><td>91, 410 B</td></tr>
+      <tr><td>Amalarius, <em>De ecclesiasticis officiis</em></td><td class="r">850</td><td>105, 1035 B</td></tr>
+      <tr><td>Rabanus Maurus, on Exodus</td><td class="r">856</td><td>108, 147 D</td></tr>
+    </tbody>
+  </table>
+  <p>The figure most often used to teach the senses is Jerusalem: a city of stone, the Church, the soul, the heavenly city, in 28 passages. Next is the four feet of the table in the tabernacle.</p>
+</section>
+
+<section>
+  <p class="eyebrow">3 · Machine and reader</p>
+  <h2>What a count finds, and what only a reader finds</h2>
+  <p class="lead">De Lubac read the sources by hand. Setting the machine’s 132 statements against his footnotes shows what each can see.</p>
+  <ul>
+    <li>He cites 96 of the 132 for exactly this point. For the 11 he does not cite at all, a reader still has to confirm the omission.</li>
+    <li>Of his own citations of passages naming three or more senses, the word search finds half. In 98 of the places it misses, relaxing a rule (a wider window, a broader word list) would find them.</li>
+    <li><strong>In 64 places, the scheme is carried by a figure, not a word:</strong> the three ways of cooking a sacrifice, four casks in a cellar, shadow and image and truth, the three comings of Christ. No vocabulary will ever find these. They are what a reader contributes, and the reason the project keeps a reading layer beside the count.</li>
+  </ul>
+</section>
+
+<section>
+  <p class="eyebrow">4 · Which Bible?</p>
+  <h2>The early Fathers quote a different Latin</h2>
+  <p class="lead">Before Jerome’s Vulgate, Latin Christians read the Old Latin, and they quoted it. A matcher built on the Vulgate should therefore miss more of the early Fathers, and it does.</p>
+  <table>
+    <thead><tr><th>Author died</th><th class="r">Verse citations by Migne</th><th class="r">Found by Vulgate matching</th></tr></thead>
+    <tbody>
+      <tr><td>to 400</td><td class="r">22,732</td><td class="r">48%</td></tr>
+      <tr><td>401–600</td><td class="r">67,018</td><td class="r">58%</td></tr>
+      <tr><td>601–800</td><td class="r">15,476</td><td class="r">70%</td></tr>
+      <tr><td>801–1000</td><td class="r">25,592</td><td class="r">65%</td></tr>
+      <tr><td>1101–1200</td><td class="r">48,943</td><td class="r">66%</td></tr>
+    </tbody>
+  </table>
+  <p>Adding Old Latin texts to the index (Sabatier’s 1743 <em>Versiones antiquae</em>, and the 37 Old Latin manuscripts of John transcribed by the IGNTP) recovers about 4 more points of the early Fathers’ New Testament citations, and 7 on John. Most of the gap remains. Much of it is allusion, not quotation: the early Fathers wove Scripture into their own sentences. They cite differently, not only from a different text.</p>
+</section>
+
+<section>
+  <p class="eyebrow">Method</p>
+  <h2>How this was made</h2>
+  <p>Everything above was computed, not read by a model: the Corpus Corporum transcription of the PL (5,276 works), the Clementine Vulgate, and a citation spine with three streams. The streams are Migne’s parenthetical citations, rare five-word sequences shared with the Vulgate, and ordered word pairs for looser wording. De Lubac’s footnotes were transcribed into a ledger. Only aggregate counts are published here.</p>
+  <p class="note">These are preliminary findings. Common liturgical formulas (“in the name of the Father, and of the Son…”) are not yet excluded from the matched counts, the Greek Fathers are not yet read, and the 11 uncited passages await a reader. Numbers will move.</p>
+</section>
+</main>
+
+<footer><div class="wrap">
+  Scriptura is a Wroot Press research project. Findings and annotations © Wroot Press, <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a>. Old Latin manuscripts of John: <a href="https://itseeweb.cal.bham.ac.uk/iohannes/">Vetus Latina Iohannes</a>, IGNTP, CC BY 4.0. Sabatier (1743–49) and the Clementine Vulgate are in the public domain. Patrologia Latina text: <a href="https://mlat.uzh.ch">Corpus Corporum</a>, Universität Zürich.
+</div></footer>
+</body>
+</html>

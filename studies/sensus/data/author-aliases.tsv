@@ -1,0 +1,456 @@
+alias	heading	year	src
+Origen	Origenes	254	cc
+Augustine	Augustinus Hipponensis	430	cc
+Augustinus	Augustinus Hipponensis	430	cc
+Jerome	Hieronymus Stridonensis	419	cc
+Hieronymus	Hieronymus Stridonensis	419	cc
+Hilary of Poitiers	Hilarius Pictaviensis	367	cc
+Gerhoh of Reichersberg	Gerhohus Reicherspergensis	1169	cc
+Aelred of Rievaulx	Aelredus Rievallensis	1166	cc
+Ambrose	Ambrosius Mediolanensis	397	cc
+Ambrose of Milan	Ambrosius Mediolanensis	397	cc
+John Cassian	Joannes Cassianus	435	cc
+Johannes Cassianus	Joannes Cassianus	435	cc
+Cassian	Joannes Cassianus	435	cc
+Gregory of Elvira	Gregorius Illiberitanus	392	hand
+Gregorius Illiberitanus	Gregorius Illiberitanus	392	hand
+Gregory the Great	Gregorius I	604	cc
+Gregorius Magnus	Gregorius I	604	cc
+Gregory I	Gregorius I	604	cc
+Gregory	Gregorius I	604	cc
+Bernard of Clairvaux	Bernardus Claraevallensis	1153	cc
+Bernard	Bernardus Claraevallensis	1153	cc
+Aponius	Aponius	420	hand
+Apponius	Aponius	420	hand
+Irimbert of Admont	Irimbertus Admontensis	1176	hand
+Irimbertus Admontensis	Irimbertus Admontensis	1176	hand
+John Scotus Eriugena	Joannes Scotus Erigena	877	cc
+Eriugena	Joannes Scotus Erigena	877	cc
+Richard of Saint-Victor	Richardus S. Victoris	1173	cc
+Richard of St Victor	Richardus S. Victoris	1173	cc
+Richardus de Sancto Victore	Richardus S. Victoris	1173	cc
+Richardus de S. Victore	Richardus S. Victoris	1173	cc
+Joachim of Fiore	Joachim Florensis	1202	hand
+Theodoret of Cyrrhus	Theodoretus Cyrensis	458	cc
+Adam of Perseigne	Adamus Perseniae	1221	cc
+Adam Persenniae	Adamus Perseniae	1221	cc
+Otto of Freising	Otto Frisingensis	1158	hand
+Beatus of Liebana	Beatus Liebanensis	798	hand
+Beatus Liebanensis	Beatus Liebanensis	798	hand
+Alexander Neckam	Alexander Neckam	1217	hand
+Berengaudus	Berengaudus	900	hand
+Thomas Aquinas	Thomas Aquinas	1274	hand
+Apringius of Beja	Apringius Pacensis	551	hand
+Apringius Pacensis	Apringius Pacensis	551	hand
+Bonaventure	Bonaventura	1274	hand
+Bonaventura	Bonaventura	1274	hand
+Rupert of Deutz	Rupertus Tuitiensis	1129	cc
+Bede	Beda	735	cc
+Beda Venerabilis	Beda	735	cc
+Gaudentius of Brescia	Gaudentius Brixiensis	410	cc
+Tertullian	Tertullianus	220	cc
+Alcuin	Alcuinus	804	cc
+Hugh Metel	Hugo Metellus	1200	cc
+John of Salisbury	Joannes Saresberiensis	1180	cc
+Joannes Saresberiensis	Joannes Saresberiensis	1180	cc
+Geoffrey of Auxerre	Gaufridus Autissiodorensis	1188	hand
+Geoffroy d'Auxerre	Gaufridus Autissiodorensis	1188	hand
+Macrobius	Macrobius	430	hand
+Godfrey of Saint-Victor	Godefridus de S. Victore	1194	hand
+Godefroy of Saint-Victor	Godefridus de S. Victore	1194	hand
+Godefroy de Saint-Victor	Godefridus de S. Victore	1194	hand
+Godefridus de S. Victore	Godefridus de S. Victore	1194	hand
+Bruno of Segni	Bruno Astensis	1123	cc
+Bruno Signiensis	Bruno Astensis	1123	cc
+Manegold of Lautenbach	Manegoldus Lutenbacensis	1103	hand
+Clement of Alexandria	Clemens Alexandrinus	215	hand
+Peter of Poitiers	Petrus Pictaviensis	1205	cc
+Walter of Saint-Victor	Gualterus S. Victoris Parisiensis	1180	cc
+William of Saint-Thierry	Guillelmus S. Theoderici	1148	cc
+Guillelmus de Sancto Theodorico	Guillelmus S. Theoderici	1148	cc
+Guillelmus de S. Theodorico	Guillelmus S. Theoderici	1148	cc
+Gilbert Foliot	Gilbertus Foliot	1187	cc
+Peter of Celle	Petrus Cellensis	1183	cc
+Chromatius of Aquileia	Chromatius Aquileiensis	407	cc
+Adam of Saint-Victor	Adamus de Sancto Victore	1192	cc
+Isidore of Seville	Isidorus Hispalensis	636	cc
+Isidore	Isidorus Hispalensis	636	cc
+Columbanus	Columbanus	615	hand
+Peter Lombard	Petrus Lombardus	1160	cc
+Peter the Chanter	Petrus Cantor	1197	cc
+Alan of Lille	Alanus de Insulis	1203	cc
+Gilbert of Stanford	Gilbertus de Stanford	1200	hand
+Radulfus Flaviacensis	Radulfus Flaviacensis	1160	hand
+Radulphus Flaviacensis	Radulfus Flaviacensis	1160	hand
+Adam Scot	Adamus Scotus	1212	cc
+Adam Scotus	Adamus Scotus	1212	cc
+Stephen Langton	Stephanus Langton	1228	hand
+Vincent of Beauvais	Vincentius Bellovacensis	1264	cc
+Garnier de Rochefort	Garnerius Lingonensis	1225	cc
+Philo of Alexandria	Philo Alexandrinus	50	hand
+Philo Alexandrinus	Philo Alexandrinus	50	hand
+Filastrius Brixiensis	Filastrius Brixiensis	397	hand
+Filastrius of Brescia	Filastrius Brixiensis	397	hand
+Vincent of Lérins	Vincentius Lirinensis	450	cc
+Vincent of Lerins	Vincentius Lirinensis	450	cc
+Alphonsus Tostatus	Alphonsus Tostatus	1455	hand
+Odo of Canterbury	Odo Cantuariensis	1200	cc
+Peter Damian	Petrus Damianus	1072	cc
+Charlemagne	Carolus Magnus	814	cc
+Serlo of Savigny	Serlo Saviniacensis	1158	hand
+Serlo Saviniacensis	Serlo Saviniacensis	1158	hand
+Braulio of Saragossa	Braulio Caesaraugustanus	651	cc
+Angelomus Luxoviensis	Angelomus Luxovensis	855	cc
+Angelomus Luxovensis	Angelomus Luxovensis	855	cc
+Eucherius of Lyon	Eucherius Lugdunensis	449	cc
+Sedulius Scottus	Sedulius Scotus	858	cc
+Glossa ordinaria	Glossa ordinaria	1150	hand
+Gerald of Wales	Giraldus Cambrensis	1223	hand
+Caesarius of Arles	Caesarius Arelatensis	542	cc
+Justin Martyr	Justinus Martyr	165	hand
+Odo of Cluny	Odo Cluniacensis	942	cc
+Robert of Melun	Robertus Meludinensis	1167	hand
+Sixtus Senensis	Sixtus Senensis	1569	hand
+Guillelmus Durandus	Guillelmus Durandus	1296	hand
+Hugh of St Victor	Hugo de S. Victore	1141	cc
+Hugh of Saint-Victor	Hugo de S. Victore	1141	cc
+Cyprian	Cyprianus Carthaginensis	258	cc
+Willibald	Willibaldus	1787	cc
+Galland of Rigny	Gallandus Regniacensis	1140	hand
+William of Ockham	Guillelmus de Ockham	1347	hand
+Ermenricus Elwangensis	Ermenricus Elwangensis	874	hand
+Ermenric of Ellwangen	Ermenricus Elwangensis	874	hand
+Milo of Saint-Amand	Milo Elnonensis	872	hand
+Herrad of Landsberg	Herrada Landsbergensis	1195	hand
+Potho of Prüm	Potho Prumiensis	1170	hand
+Potho Prumiensis	Potho Prumiensis	1170	hand
+Victorinus Poetovionensis	Victorinus Poetovionensis	304	hand
+Herbert de Losinga	Herbertus de Losinga	1119	hand
+Luke of Mont-Cornillon	Lucas de Monte Cornelii	1180	hand
+Hrabanus Maurus	Rabanus Maurus	856	cc
+Ulrich of Strasbourg	Ulricus Argentinensis	1277	hand
+Eusebius of Caesarea	Eusebius Caesariensis	340	cc
+Paulinus of Nola	Paulinus Nolanus	431	cc
+Goscelin of Saint-Bertin	Goscelinus Bertinianus	1107	hand
+Goscelin	Goscelinus Bertinianus	1107	hand
+Gertrude of Helfta	Gertrudis Helftensis	1302	hand
+Prudentius of Troyes	Prudentius Trecensis	861	cc
+Hugh of Fleury	Hugo de S. Maria Floriacensis	1135	cc
+Irenaeus	Irenaeus Lugdunensis	202	hand
+Remigius Autissiodorensis	Remigius Autissiodorensis	908	hand
+Othloh of St Emmeram	Othlonus S. Emmerammi Ratisponensis	1070	cc
+Aldhelm	Aldhelmus Schireburnensis	709	cc
+Aldhelmus	Aldhelmus Schireburnensis	709	cc
+Williram of Ebersberg	Willeramus Ebersbergensis	1085	hand
+Gilbert of Hoyland	Gilbertus de Hoilandia	1172	hand
+Nicolaus de Lyra	Nicolaus de Lyra	1349	hand
+Innocent III	Innocentius III	1216	cc
+Innocentius III	Innocentius III	1216	cc
+William of Auvergne	Guillelmus Alvernus	1249	hand
+Arnulf of Lisieux	Arnulfus Lexoviensis	1184	cc
+Benedict of Nursia	Benedictus Nursiae	547	cc
+Ekkehard of Saint-Gall	Ekkehardus Sangallensis	1057	hand
+Ekkehard IV	Ekkehardus Sangallensis	1057	hand
+Eigil of Fulda	Eigil Fuldensis	822	cc
+Elmer of Canterbury	Elmerus Cantuariensis	1137	hand
+Guigo I Carthusiensis	Guigo I prior Carthusiae	1136	cc
+Humbert of Silva Candida	Humbertus Silvae Candidae	1061	cc
+Guillelmus Firmatus	Guillelmus Firmatus	1103	hand
+Wipo	Wipo	1048	hand
+Gunzo of Novara	Gunzo Novariensis	970	hand
+Richer of Reims	Richerus Remensis	998	hand
+Florus of Lyon	Florus Lugdunensis	860	cc
+Hildemar	Hildemarus Corbeiensis	850	hand
+Praepositinus of Cremona	Praepositinus Cremonensis	1210	hand
+Stephen of Tournai	Stephanus Tornacensis	1203	cc
+Pseudo-Dionysius Areopagita	Pseudo-Dionysius Areopagita		pseudo
+Dionysius Cartusianus	Dionysius Cartusianus	1471	hand
+Boniface	Bonifatius Moguntinus	754	hand
+Peter of London	Petrus Londoniensis	1200	hand
+Robertus Paululus	Robertus Paululus	1184	hand
+Radulphus Ardens	Radulfus Ardens	1200	cc
+Alexander of Hales	Alexander Halensis	1245	hand
+Priscillianus	Priscillianus	385	hand
+Jacques de Vitry	Jacobus de Vitriaco	1240	hand
+Sedulius	Sedulius	450	hand
+Licinianus Carthaginiensis	Licinianus Carthaginensis	602	cc
+Peter Riga	Petrus de Riga	1209	cc
+Albertus Miliolus	Albertus Miliolus	1286	hand
+Herbert of Bosham	Herbertus de Boseham	1194	cc
+Elisabeth of Schönau	Elisabeth Schonaugiensis	1164	hand
+Georgius Syncellus	Georgius Syncellus	810	hand
+Nicephorus Callistus	Nicephorus Callistus	1335	hand
+Nicetas Choniates	Nicetas Choniates	1217	hand
+Francisco Ribera	Franciscus Ribera	1591	hand
+Francisco Ruiz	Franciscus Ruiz	1546	hand
+Baldricus Burguliensis	Baldricus Burguliensis	1130	hand
+Peter of Cornwall	Petrus Cornubiensis	1221	hand
+Conrad of Hirsau	Conradus Hirsaugiensis	1150	hand
+Absalon Springirsbacensis	Absalon Sprinckirsbacensis	1196	cc
+Eadmer	Eadmerus Cantuariensis	1120	cc
+Paulinus of Aquileia	Paulinus Aquileiensis	802	cc
+Bernardus Casinensis	Bernardus Casinensis	1282	hand
+Geoffroy Babion	Gaufridus Babion	1158	hand
+Tyconius	Tyconius	400	hand
+Helinand of Froidmont	Helinandus Frigidi Montis	1229	cc
+Avitus of Vienne	Avitus Viennensis	518	cc
+Berengarius Turonensis	Berengarius Turonensis	1088	hand
+Anselm of Liège	Anselmus Leodiensis	1056	cc
+Defensor of Ligugé	Defensor Locociagensis	750	cc
+Rimbert	Rimbertus Bremensis	888	hand
+Arnold of Sankt Emmeram	Arnoldus Emmerammensis	1001	cc
+Adelmannus Leodiensis	Adelmannus Leodiensis	1061	hand
+Idungus	Idungus Prufeningensis	1144	hand
+Robert of Basevorn	Robertus de Basevorn	1330	hand
+Johannes Balbus de Janua	Joannes Balbus	1298	hand
+Augustinus de Dacia	Augustinus de Dacia	1285	hand
+Nicolaus Serarius	Nicolaus Serarius	1609	hand
+Rabanus	Rabanus Maurus	856	cc
+P. Mandonnet			modern
+Christian Pesch			modern
+Robert and Feuillet			modern
+R. P. C. Hanson			modern
+J. de Ghellinck			modern
+André Malraux			modern
+P. Agaësse			modern
+Paul Lejay			modern
+Jean Levie			modern
+Maurice de Gandillac			modern
+M.-J. Lagrange			modern
+M.-D. Chenu			modern
+A.-M. Dubarle			modern
+Louis Massignon			modern
+J. G. Rosenmüller			modern
+Delporte			modern
+Philippe Gamache			modern
+J. H. Horbius			modern
+Werner of St Blasien	Wernerus S. Blasii	1099	cc
+William of Malmesbury	Willelmus Malmesburiensis	1140	cc
+Orderic Vitalis	Ordericus Vitalis	1142	cc
+Othlo of St Emmeram	Othlonus S. Emmerammi Ratisponensis	1070	cc
+Otloh of St Emmeram	Othlonus S. Emmerammi Ratisponensis	1070	cc
+Othlohus S. Emmerammi	Othlonus S. Emmerammi Ratisponensis	1070	cc
+Hugh of Fouilloy	Hugo de Folieto	1174	cc
+Helinandus Frigidimontis	Helinandus Frigidi Montis	1229	cc
+Cyprianus Carthaginiensis	Cyprianus Carthaginensis	258	cc
+Walafrid Strabo	Walafridus Strabo	849	cc
+Lupus of Ferrières	Lupus Ferrariensis	862	cc
+Erasmus	Desiderius Erasmus Roterodamus	1536	hand
+Roger Bacon	Rogerus Bacon	1292	hand
+Jacques Lefèvre d'Étaples	Jacobus Faber Stapulensis	1536	hand
+Jean Gerson	Joannes Gerson	1429	hand
+Johannes Gerson	Joannes Gerson	1429	hand
+Marsilio Ficino	Marsilius Ficinus	1499	hand
+Berno of Reichenau	Berno Augiae Divitis	1048	cc
+Berno Augiensis	Berno Augiae Divitis	1048	cc
+Agobard of Lyon	Agobardus Lugdunensis	840	cc
+Dante Alighieri	Dante Alighieri	1321	hand
+Dante	Dante Alighieri	1321	hand
+Giovanni Pico della Mirandola	Joannes Picus Mirandulanus	1494	hand
+Pico della Mirandola	Joannes Picus Mirandulanus	1494	hand
+Guibert of Nogent	Guibertus de Novigento	1124	cc
+Guibert de Nogent	Guibertus de Novigento	1124	cc
+Peter Abelard	Petrus Abaelardus	1142	cc
+Peter John Olivi	Petrus Joannis Olivi	1298	hand
+Peter John Olivi (condemned articles)	Petrus Joannis Olivi	1298	hand
+Gilbert Crispin	Gilbertus Crispinus	1117	cc
+Guillaume Budé	Guillelmus Budaeus	1540	hand
+William of Saint-Amour	Guillelmus de S. Amore	1272	hand
+Charles de Bouelles	Carolus Bovillus	1567	hand
+Joachim de Flore	Joachim Florensis	1202	hand
+Otto Frisingensis	Otto Frisingensis	1158	hand
+Albertus Magnus	Albertus Magnus	1280	hand
+Absalon of Springiersbach	Absalon Sprinckirsbacensis	1196	cc
+Josse Clichtove	Judocus Clichtoveus	1543	hand
+Amalarius of Metz	Symphosius Amalarius	850	cc
+Petrus Damiani	Petrus Damianus	1072	cc
+Peter Auriol	Petrus Aureoli	1322	hand
+Denys the Carthusian	Dionysius Carthusianus	1471	hand
+Denis the Carthusian	Dionysius Carthusianus	1471	hand
+Heterius and Beatus	Heterius Uxamensis	783	cc
+Petrus Galatinus	Petrus Galatinus	1540	hand
+Pietro Colombo (Petrus Galatinus), OFM	Petrus Galatinus	1540	hand
+Philip of Harvengt	Philippus de Harveng	1183	cc
+Nicolas Maniacoria	Nicolaus Maniacoria	1145	hand
+John of Kelso	Joannes Kelsoensis	1180	hand
+Thomas Anglicus	Thomas Anglicus	1350	hand
+Hugo de Sancto Victore	Hugo de S. Victore	1141	cc
+Bernardus Morlanensis	Bernardus Morlanensis	1140	hand
+Liutprand of Cremona	Liutprandus Cremonensis	972	cc
+Arno of Reichersberg	Arno Reicherspergensis	1169	cc
+Boto of Prüfening	Boto Pruveningensis	1170	hand
+Bodo of Prüfening	Boto Pruveningensis	1170	hand
+Bodo of Prüfning	Boto Pruveningensis	1170	hand
+Christian of Stavelot	Christianus Druthmarus	900	cc
+Johannes Reuchlin	Joannes Reuchlin	1522	hand
+Petrarch	Franciscus Petrarcha	1374	cc
+Robert Grosseteste	Robertus Grosseteste	1253	hand
+Robertus Grosseteste	Robertus Grosseteste	1253	hand
+Ralph of Coggeshall	Radulphus de Coggeshall	1227	hand
+Clemens Alexandrinus	Clemens Alexandrinus	215	hand
+Bernardus Silvestris	Bernardus Silvestris	1160	hand
+Bernard Silvestris	Bernardus Silvestris	1160	hand
+Cristoforo Landino	Christophorus Landinus	1498	hand
+Pierre Bersuire	Petrus Berchorius	1362	hand
+Fulco of Beauvais	Fulco Belvacensis	1083	hand
+Matthias of Janow	Matthias de Janov	1394	hand
+Matthias of Janov	Matthias de Janov	1394	hand
+John Wyclif	Joannes Wyclif	1384	hand
+Guy Le Fèvre de la Boderie	Guido Fabricius Boderianus	1598	hand
+Thomas More	Thomas Morus	1535	hand
+Remigius of Auxerre	Remigius Antissiodorensis	908	cc
+Annalista Saxo	Annalista Saxo	1150	hand
+Rufinus of Aquileia	Rufinus Aquileiensis	411	cc
+Methodius of Olympus	Methodius Olympius	311	hand
+Evagrius	Evagrius Ponticus	399	hand
+Ambrosius	Ambrosius Mediolanensis	397	cc
+Ambrosius (Ambrosiaster)	Ambrosiaster	384	hand
+Libri Carolini (Theodulf)	Theodulfus Aurelianensis	821	cc
+Libri Carolini	Theodulfus Aurelianensis	821	cc
+Theodulf of Orléans	Theodulfus Aurelianensis	821	cc
+Johannes Saresberiensis	Joannes Saresberiensis	1180	cc
+Johannes Scotus Eriugena	Joannes Scotus Erigena	877	cc
+John Scottus Eriugena	Joannes Scotus Erigena	877	cc
+Abelardian school	Hilarius discipulus Abaelardi	1150	cc
+Nicholas of Cusa	Nicolaus Cusanus	1464	hand
+Nicolaus Cusanus	Nicolaus Cusanus	1464	hand
+Achard of Saint-Victor	Achardus S. Victoris	1171	cc
+Anselm of Laon	Anselmus Laudunensis	1117	cc
+Martianus Capella	Martianus Capella	430	hand
+Walter Daniel	Walterus Daniel	1167	hand
+Juan de Torquemada (Turrecremata)	Joannes de Turrecremata	1468	hand
+Juan de Torquemada	Joannes de Turrecremata	1468	hand
+Maximus Confessor	Maximus Constantinopolitanus	662	cc
+Hugh of Saint-Cher	Hugo de S. Caro	1263	hand
+Nicolas de Gorran	Nicolaus de Gorran	1295	hand
+Alexander Minorita	Alexander Minorita	1271	hand
+Giles of Rome	Aegidius Romanus	1316	hand
+Johannes Tauler	Joannes Tauler	1361	hand
+Alexander of Villedieu	Alexander de Villa Dei	1240	hand
+Sigebert of Gembloux	Sigebertus Gemblacensis	1112	cc
+Ekkehardus IV Sangallensis	Ekkehardus IV Sangallensis	1060	hand
+John of Garland	Joannes de Garlandia	1300	cc
+Adalbero of Laon	Adalbero Laudunensis	1030	cc
+Victorinus of Pettau	Victorinus Petavionensis	303	cc
+Irenaeus Lugdunensis	Irenaeus Lugdunensis	202	hand
+Bonizo of Sutri	Bonizo Placentinus	1090	cc
+Hugh of Barzelle	Hugo de Barzellis	1200	hand
+Johannes Fiscannensis	Joannes Fiscamnensis	1078	cc
+Aeneas of Paris	Aeneas Parisiensis	870	cc
+Notker Balbulus	Notkerus Balbulus	912	cc
+Robertus Melodunensis	Robertus Melodunensis	1167	hand
+Robertus Autissiodorensis	Robertus Autissiodorensis	1212	hand
+Robert of Auxerre	Robertus Autissiodorensis	1212	hand
+Guillelmus S. Theodorici	Guillelmus S. Theoderici	1148	cc
+Hesychius of Jerusalem	Hesychius Hierosolymitanus	450	hand
+Gerard of Bologna	Gerardus Bononiensis	1317	hand
+Gregory of Nyssa	Gregorius Nyssenus	395	cc
+Thomas Gallus	Thomas Gallus Vercellensis	1246	hand
+Franciscus de Mayronis	Franciscus de Mayronis	1328	hand
+Adso of Montier-en-Der	Adso Dervensis	992	cc
+Roger of Howden	Rogerus de Hoveden	1201	hand
+Boniface VIII	Bonifacius VIII	1303	hand
+Clarembald of Arras	Clarembaldus Atrebatensis	1187	hand
+Thierry of Chartres	Theodoricus Carnotensis	1155	hand
+Guyart des Moulins	Guyart des Moulins	1322	hand
+Salomon Glassius	Salomon Glassius	1656	hand
+Johann Jakob Rambach	Joannes Jacobus Rambach	1735	hand
+Gilbertus Porretanus	Gislebertus Porretanus	1154	cc
+Francisco de Toledo (Toletus)	Franciscus Toletus	1596	hand
+Jan van Ruusbroec	Joannes Rusbrochius	1381	hand
+Epiphanius	Epiphanius Salaminus	403	hand
+Ludolph of Saxony	Ludolphus de Saxonia	1378	hand
+Meister Eckhart	Eckhardus	1328	hand
+Pierre de Ronsard	Pierre de Ronsard	1585	hand
+Remigio de' Girolami	Remigius de Girolamis	1319	hand
+Coluccio Salutati	Colucius Salutatus	1406	hand
+David-Paul Drach	David Paul Drach	1865	hand
+Guerric of Saint-Quentin	Guerricus de S. Quintino	1245	hand
+Alexander IV	Alexander IV	1261	hand
+John Quidort of Paris	Joannes Quidort Parisiensis	1306	hand
+Jacobus Perez de Valentia	Jacobus Perez de Valentia	1490	hand
+John of Ripa	Joannes de Ripa	1370	hand
+Ulrich of Lilienfeld	Ulricus Campililiensis	1360	hand
+Santes Pagnini	Santes Pagninus	1541	hand
+Giannozzo Manetti	Jannotius Manettus	1459	hand
+Richard Simon	Richard Simon	1712	hand
+Cornelius Agrippa	Henricus Cornelius Agrippa	1535	hand
+Jean Raulin	Joannes Raulin	1514	hand
+Jean Le Clerc	Joannes Clericus	1736	hand
+Thomas a Kempis	Thomas a Kempis	1471	hand
+John of the Cross	Joannes a Cruce	1591	hand
+Martin Gerbert	Martinus Gerbert	1793	hand
+Daniel Papebroch	Daniel Papebrochius	1714	hand
+S. Amsler			modern
+A. Renaudet			modern
+Henri de Lubac			modern
+Henri Jeanmaire			modern
+Jacques Perret			modern
+J. Perret			modern
+F.-A. Blanche			modern
+A. Vaccari			modern
+Lucien Gautier			modern
+M. W. Bloomfield			modern
+P. Boyancé			modern
+Marcel Bataillon			modern
+J. Huizinga			modern
+J. V.-M. Pollet			modern
+F. Secret			modern
+Louis Bouyer			modern
+Charles Delarue			modern
+Clemens	Clemens Romanus	99	hand
+Dionysius	Dionysius Areopagita	500	hand
+Pseudo-Dionysius Areopagita	Pseudo-Dionysius Areopagita	500	pseudo
+Dionysius Areopagita	Dionysius Areopagita	500	hand
+Cyprianus	Cyprianus Carthaginensis	258	cc
+Isidorus	Isidorus Hispalensis	636	cc
+Gelasius	Gelasius I	496	cc
+Barnabas	Barnabas	130	hand
+Council of Valence	Concilium Valentinum	855	hand
+School of Abelard	Hilarius discipulus Abaelardi	1150	cc
+John, abbot of Santa Maria in Trastevere	Joannes S. Mariae Transtiberim	1150	hand
+John of Trastevere	Joannes S. Mariae Transtiberim	1150	hand
+Gregory of Nazianzus	Gregorius Nazianzenus	390	hand
+Rudolf of Biberach (printed among Bonaventure's works)	Rudolphus de Biberaco	1360	hand
+Council of Toul-Savonnières	Concilium Tullense	859	hand
+Gerland of Besançon	Gerlandus Bisuntinus	1148	hand
+Ekkehard	Ekkehardus IV Sangallensis	1060	hand
+Ekkehard IV of St Gall	Ekkehardus IV Sangallensis	1060	hand
+Hippolytus	Hippolytus Romanus	235	hand
+Durandus of Mende	Gulielmus Durandus Mimatensis	1296	hand
+Heiric of Auxerre	Heiricus Autissiodorensis	876	hand
+Heiricus Autissiodorensis	Heiricus Autissiodorensis	876	hand
+Gottschalk of Orbais	Godescalcus Orbacensis	868	hand
+Rahewin	Rahewinus Frisingensis	1177	hand
+Robertus Meledunensis	Robertus Melodunensis	1167	hand
+Walter Hilton	Walterus Hilton	1396	hand
+Conradus Hirsaugiensis	Conradus Hirsaugiensis	1150	hand
+Ademar of Chabannes	Ademarus Cibardi	1034	cc
+Boethius	Boetius	524	cc
+Alexander Halensis	Alexander Halensis	1245	hand
+Gregorius Iliberritanus	Gregorius Iliberritanus	392	hand
+Alvarus of Cordoba	Alvarus Cordubensis	861	cc
+Giraldus Cambrensis	Giraldus Cambrensis	1223	hand
+Pierre-Daniel Huet	Petrus Daniel Huetius	1721	hand
+Reginald of Canterbury	Reginaldus Cantuariensis	1109	hand
+Walter of Châtillon	Gualterus de Castellione	1201	cc
+Albericus Trium Fontium	Albericus Trium Fontium	1252	hand
+Cornelius a Lapide	Cornelius a Lapide	1637	hand
+Laurentius (disciple of Hugh of St Victor)	Laurentius discipulus Hugonis	1150	hand
+Monk of Farne	Monachus Farnensis	1380	hand
+Roger of Wendover	Rogerus de Wendover	1236	hand
+Stephanus Langton	Stephanus Langton	1228	hand
+Robertus de Basevorn	Robertus de Basevorn	1322	hand
+Angelomus of Luxeuil	Angelomus Luxovensis	855	cc
+Angilbert	Angilbertus Centulensis	814	cc
+Julian of Vézelay	Julianus Vizeliacensis	1165	hand
+Bernard of Morval	Bernardus Morlanensis	1140	hand
+Basil of Caesarea	Basilius Caesareae	379	cc
+Ambrose Autpert	Ambrosius Autpertus	784	cc
+John of Ford	Joannes de Forda	1214	hand
+Concilium Lateranense IV	Concilium Lateranense IV	1215	hand
+Council of Basel	Concilium Basileense	1449	hand
+Boniface VIII	Bonifacius VIII	1303	hand
+René Marlé			modern
+René Roques			modern
+J. Brucker			modern

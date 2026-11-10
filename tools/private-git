@@ -1,0 +1,5 @@
+#!/bin/sh
+# The de Lubac ledger files (see .gitignore) are versioned in a separate LOCAL-ONLY git dir,
+# ~/scriptura-private.git, with this checkout as its work tree. It has no remote, ever.
+#   tools/private-git add -f <file> (the outer .gitignore hides them, so -f) | commit -m "..." | log --oneline
+exec git --git-dir="$HOME/scriptura-private.git" --work-tree="$HOME/scriptura" "$@"
