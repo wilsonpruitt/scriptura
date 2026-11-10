@@ -221,18 +221,26 @@ Against Migne's inline verse citations, in verse- and mixed-practice volumes (`b
      index.
    - The default Old Latin index is Clementine + Iohannes + Sabatier text (union).
    - OT vols. I–II are OCR'd and unparsed. Parse them only if the OT recall question needs it.
-3. Precision: the formula exclusion list. **Proposed 2026-11-10** (`scripts/exclusions.py` →
-   `exclusions-proposed.tsv`): 354 runs found in 25+ works, which Migne cites inline at under 25%
-   of their occurrences. They cover 34,436 of the 639,794 n-gram rows. A low Migne rate is not
-   noise, though. The list holds three kinds, and the `ruling` column takes one of these:
-   - `exclude`: liturgical and doxological formulas, not a citation event ("patris et filii et
-     spiritus sancti" ×1,148; "honor et gloria in secula seculorum"; "dei et domini nostri iesu
-     christi"; "gloria et imperium in secula seculorum").
-   - `keep`: quotations too famous to cite ("panem nostrum quotidianum", "in manus tuas commendo
-     spiritum meum", "oculum pro oculo").
-   - `parallel`: real quotations whose verse the words cannot decide (synoptic triples; Ps 13:3 =
-     Rom 3:12; Ps 109:4 = Heb 5:6 = Heb 7:17). Keep the citation and leave the verse open as a set.
+3. ~~Precision: the formula exclusion list~~. **Ruled 2026-11-10 (Wilson): nothing is excluded.**
+   Liturgical use of Scripture is use of Scripture. For these authors the modern line between
+   quoting a verse and praying its words does not hold. Rows are **tagged as broadly as possible**
+   so that no one has to go back to the text, and a future study of the liturgy in the PL and PG
+   can start from the tags. Going through the top ten of `exclusions-proposed.tsv` together found
+   no false match. Every one is a real use: liturgical (the Trinitarian formula, the doxology) or a
+   parallel to resolve (Ps 109:4 = Heb 5:6 = 7:17; Matt 5:16 in "videant opera vestra bona et
+   glorificent…"). The proposal file stays as a record; its `ruling` column is superseded by
+   the tags.
+4. ~~Merge~~: **spine v1, done 2026-11-10** (`scripts/merge.py` → `spine/spine.tsv`, `merge.py
+   sample` to read rows per tag). 1,049,599 citations, one per (work, column, verse or parallel
+   set), with the streams that found each one. Computed tags, ';'-separated (definitions in the
+   script's docstring):
+   - liturgical:trinitarian / doxology / invocation / prayer / office; phrase:in-nomine-domini
+   - genre:liturgical / sacraments / conciliar / diplomatic (from the work's title)
+   - parallel:inline / context / open (how a multi-verse match was resolved)
+   - lemma (a commentary quoting its own book; 214 commentaries identified by title)
+   - refrain (5+ times in one work); widespread-uncited (in 25+ works, seldom cited by Migne:
+     famous verses, stock phrases, idioms alike; "a solis ortu usque ad occasum" is here)
+   - chapter-only; low-confidence (fuzzy-only at 4 pairs)
 
-   Wilson or a reader rules on the top of the list. The tail can follow by pattern. Then a lemma flag for commentaries, so that the text under comment is counted apart
-   from quotation.
-4. Merge: one spine row per (work, column, verse), carrying which streams found it.
+   Tags are computed, never ruled. A reader sub-tags only when a study needs it. Tag counts:
+   `spine/tags-summary.tsv`.

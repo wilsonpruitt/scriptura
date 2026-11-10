@@ -94,5 +94,10 @@ Longinus). Who named them, when, and where did the names travel?
   the `questions` speaker coding.
 - **[8] Where translators can't agree.** Per-verse variance across versions against commentary
   density.
+- **[11] Scripture in the liturgy of the Fathers** (Wilson, 2026-11-10: "liturgical analysis of PG
+  and PL could be very interesting for a future project"). The canon spine already tags every
+  citation `liturgical:*` (trinitarian, doxology, invocation, prayer, office) and `genre:liturgical
+  / sacraments`. Which verses the liturgy carried, and how far liturgical wording shaped quotation
+  in the treatises. Start from `studies/canon/spine/spine.tsv`; the PG joins as Kraken delivers it.
 - **[10] Do reading errors predict variants?** The learner and HTR confusion table against
   attested variants. Needs open variant data.
