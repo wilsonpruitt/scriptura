@@ -66,11 +66,32 @@ TERMS = [
 FORMULA = {t for t, f, g, _ in TERMS if g == 'core' and f in 'LATN'} | {'ιστορια'}
 RX = re.compile('|'.join(rf'(?P<t{i}>\b(?:{rx})\b)' for i, (_, _, _, rx) in enumerate(TERMS)))
 
+def _n(t):
+    return ''.join(c for c in unicodedata.normalize('NFD', t) if not unicodedata.combining(c)).lower().replace('ς', 'σ')
+
+_LEX = None
+def lexicon():
+    """Every form in ~/patrologia/raw/greek-lexicon.tsv, normalized like the text."""
+    global _LEX
+    if _LEX is None:
+        _LEX = {_n(l.split('\t')[0]) for l in open(os.path.expanduser('~/patrologia/raw/greek-lexicon.tsv'), encoding='utf-8')}
+    return _LEX
+
 def norm(t):
+    """Whole-volume runs read every page, and Kraken turns a Latin-only page or front matter into
+    Greek-looking junk (about 10% of PG 1-2 pages; Origen's run, fed Greek pages only, had none).
+    So a line is kept only if half or more of its 4+-letter words are Greek lexicon forms; lines
+    with no such word (numerals, short words) are kept. Measured on the six checked works and
+    Origen: real Greek runs 90-95% in the lexicon."""
     t = re.sub(r'\[b:\s*\w+\]', ' ', t)
-    t = re.sub(r'(\w)-\s*\n\s*(\w)', r'\1\2', t)
-    t = ''.join(c for c in unicodedata.normalize('NFD', t) if not unicodedata.combining(c)).lower().replace('ς', 'σ')
-    return ' '.join(re.findall(r'[α-ω]+', t))
+    t = re.sub(r'(\w)-\s*\n\s*(\w)', r'\1\2', _n(t))
+    lex, keep = lexicon(), []
+    for line in t.split('\n'):
+        ws = re.findall(r'[α-ω]+', line)
+        long = [w for w in ws if len(w) >= 4]
+        if not long or sum(w in lex for w in long) >= 0.5 * len(long):
+            keep += ws
+    return ' '.join(keep)
 
 def scan(work):
     """One work: (words, term counts, formulas). Page-level offsets so a formula carries its page."""
