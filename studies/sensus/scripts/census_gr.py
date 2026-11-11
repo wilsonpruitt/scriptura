@@ -127,14 +127,15 @@ def scan(work):
 def main():
     works = sys.argv[1:] or sorted(d for d in os.listdir(K) if glob.glob(os.path.join(K, d, 'text', 'p-*.txt')))
     res = {w: scan(w) for w in works}
+    full = not sys.argv[1:]          # the tables are written only by a full run; a named subset just prints
     os.makedirs(OUT, exist_ok=True)
-    with open(os.path.join(OUT, 'gr-terms.tsv'), 'w', encoding='utf-8') as o:
+    with open(os.path.join(OUT, 'gr-terms.tsv') if full else os.devnull, 'w', encoding='utf-8') as o:
         o.write('term\tfamily\ttier\t' + '\t'.join(works) + '\n')
         o.write('(words)\t\t\t' + '\t'.join(str(res[w][0]) for w in works) + '\n')
         for t, f, g, _ in TERMS:
             o.write(f'{t}\t{f}\t{g}\t' + '\t'.join(str(res[w][1][t]) for w in works) + '\n')
     allf = [f for w in works for f in res[w][2]]
-    with open(os.path.join(OUT, 'gr-formulas.tsv'), 'w', encoding='utf-8') as o:
+    with open(os.path.join(OUT, 'gr-formulas.tsv') if full else os.devnull, 'w', encoding='utf-8') as o:
         o.write('work\tpage\tfamilies\tterms\tsnippet\n')
         for r in allf:
             o.write('\t'.join(r) + '\n')
