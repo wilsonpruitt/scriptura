@@ -571,8 +571,8 @@ Per 100K words:
 ## 12. The Greek in volume order: PG 1–11 (2026-11-12, no tokens)
 
 Kraken over whole volumes (`~/patrologia/htr/pg-volumes.sh`, ruling G2), counted by
-`census_gr.py` with the lexicon line filter (section 11). PG 9 (Clement, the rest of the *Stromata*)
-is being read, then PG 12. Rates are per
+`census_gr.py` with the lexicon line filter (section 11). PG 9 (Clement, the rest of the *Stromata*),
+PG 12 and PG 15 have since been read and counted (2026-11-13). Rates are per
 100K Greek words; counts are lemma-stem hits, not readings.
 
 | | words | ἀλληγορ- | τροπολογ- | ἀναγωγ- | θεωρία | συμβολικ- |
@@ -614,8 +614,29 @@ gives the work title and, after a fitted map, the Migne column (OCR evidence, ci
   (18.6).** So the high volume rate is one work, and much of it one theme: *Paedagogus* I's
   argument that Scripture calls believers children, lambs and milk (pp. 139–191). What survives
   the split is the *form*, not the rate: the verb with the text as subject, and no τροπολογία.
-- **Test pending.** PG 9 holds *Stromata* V, Clement's own treatment of symbol and hidden meaning.
-  If the form (verb, text as subject, no τροπολογία) holds there, it is Clement's habit.
+- **The test, PG 9 (2026-11-13): the form holds, and the rate rises where the subject is the hidden
+  sense.** The books are counted by Migne's column ranges, using the running-head map, because the
+  heads misread VI as V. The results:
+
+  | | words | ἀλληγορ- | per 100K |
+  |---|---:|---:|---:|
+  | *Stromata* V | 23K | 14 | **61.3** |
+  | *Stromata* VI | 26K | 7 | 27.0 |
+  | *Stromata* VII | 22K | 4 | 18.4 |
+  | *Stromata* VIII | 7K | 0 | 0 |
+  | *Stromata* V–VIII | 77K | 25 | 32.3 |
+
+  - **Book V outruns the *Paedagogus* (52.1).** Book V is the one on symbol and enigma.
+  - **The form is the same:** 20 of the 25 are verbs or participles (ἀλληγορεῖται alone 6×) and 5
+    are nouns.
+  - **τροπολογία never appears in the *Stromata*.** PG 9 has it twice, neither in a work securely
+    Clement's: once at col. ≈715 in the *Eclogae propheticae*, which Migne prints among the doubtful
+    works, and once at col. ≈1545 in the Greek index.
+  - **Correction to the line above:** Clement's rate is not one work. It follows the topic. It is
+    high where he argues about how Scripture speaks (*Paedagogus* I, *Stromata* V) and low
+    elsewhere (*Stromata* I–IV 12.0, VII 18.4, VIII 0).
+  - **The habit is Clement's:** the verb with the text as subject, and no τροπολογία.
+  - PG 9 and PG 12 have no formula windows, and neither does PG 15.
 
 **PG 11: five formula windows, all in *Contra Celsum*, all pairs again.** Celsus's mentions
 (κελσ-) run pp. ~300–850, and 32 of the volume's 36 ἀλληγορ- and 33 of its 33 τροπολογ- fall

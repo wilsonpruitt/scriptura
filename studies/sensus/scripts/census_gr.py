@@ -98,8 +98,17 @@ def norm(t):
     return ' '.join(keep)
 
 _HEADS = {}
+def _caps(h):
+    """A running-head title is set in capitals; a band of body text (the reader missed the head) is not."""
+    letters = [c for c in h if c.isalpha()]
+    return len(letters) >= 4 and sum(c.isupper() for c in letters) >= .7 * len(letters)
+
+
 def locate(work, page):
-    """(col, heads) for a Kraken page 'p-0290' of work 'pg-004' or 'origen-pg013'; ('', '') if unmapped."""
+    """(col, heads) for a Kraken page 'p-0290' of work 'pg-004' or 'origen-pg013'; ('', '') if unmapped.
+    Where a page's head did not read, the nearest head of the same side (±2, ±4, ±6 pages) stands in.
+    In a volume where under a quarter of the pages read their own column, the column is left blank:
+    the fit there is too thinly supported to cite (PG 47-63, 148, 154, 2026-11-13)."""
     m = re.search(r'pg-?(\d{3}(?:-\d)?)$', work)
     if not m: return '', ''
     vol = m.group(1)
@@ -109,13 +118,18 @@ def locate(work, page):
         if os.path.exists(f):
             for l in open(f, encoding='utf-8').read().splitlines()[1:]:
                 c = l.split('\t')
-                rows[int(c[0])] = (c[1], c[4])
-        _HEADS[vol] = rows
-    rows, n = _HEADS[vol], int(page[2:])
+                rows[int(c[0])] = (c[1], c[4], c[3])
+        good = sum(r[2] == 'read' for r in rows.values()) >= .25 * len(rows) if rows else False
+        _HEADS[vol] = (rows, good)
+    (rows, good), n = _HEADS[vol], int(page[2:])
     if n not in rows: return '', ''
-    col, h = rows[n]
-    mate = rows.get(n + 1 if n % 2 == 0 else n - 1, ('', ''))[1]
-    return col, ' / '.join(x for x in (h, mate) if x)
+    def title(k):
+        for d in (0, -2, 2, -4, 4, -6, 6):
+            h = rows.get(k + d, ('', '', ''))[1]
+            if _caps(h): return h
+        return ''
+    col = rows[n][0] if good else ''
+    return col, ' / '.join(x for x in (title(n), title(n + 1 if n % 2 == 0 else n - 1)) if x)
 
 
 def scan(work):
