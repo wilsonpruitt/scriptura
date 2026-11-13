@@ -568,6 +568,80 @@ Per 100K words:
   windows can be read by eye, and the term counts are lexicon words, not the real-word residue
   where the scorer helps.
 
+## 12. The Greek in volume order: PG 1–11 (2026-11-12, no tokens)
+
+Kraken over whole volumes (`~/patrologia/htr/pg-volumes.sh`, ruling G2), counted by
+`census_gr.py` with the lexicon line filter (section 11). PG 9 (Clement, the rest of the *Stromata*)
+is being read, then PG 12. Rates are per
+100K Greek words; counts are lemma-stem hits, not readings.
+
+| | words | ἀλληγορ- | τροπολογ- | ἀναγωγ- | θεωρία | συμβολικ- |
+|---|---:|---:|---:|---:|---:|---:|
+| PG 1 (Apostolic Fathers) | 96K | 0 | 0 | 0 | 0 | 1.0 |
+| PG 2 (Clementina etc.) | 157K | 11.5 | 0 | 0 | 1.3 | 1.3 |
+| PG 3 (Ps-Dionysius) | 165K | 1.8 | 0 | **63.6** | 76.3 | 26.0 |
+| PG 4 (Ps-Dionysius, scholia) | 122K | 8.2 | 0 | 16.4 | 46.6 | 37.6 |
+| PG 5 | 64K | 0 | 0 | 3.1 | 0 | 0 |
+| PG 6 (Justin and others) | 233K | 3.4 | 1.3 | 1.3 | 7.7 | 2.1 |
+| PG 7-1 (Irenaeus, Greek parts) | 46K | 6.5 | 0 | 2.2 | 4.3 | 4.3 |
+| PG 8 (Clement of Alexandria) | 171K | **24.5** | **0** | 0.6 | 14.6 | 4.1 |
+| PG 10 (Greg. Thaumaturgus, Hippolytus …) | 140K | 0.7 | 0 | 2.1 | 13.6 | 1.4 |
+| PG 11 (Origen, mostly *Contra Celsum*) | 256K | 14.1 | 12.9 | 3.1 | 5.5 | 3.5 |
+| PG 13 (Origen on Matthew) | 216K | 5.1 | 17.1 | 13.0 | 7.4 | 4.6 |
+| PG 14 (Origen on John) | 156K | 9.0 | 1.9 | 10.2 | 9.0 | 3.2 |
+
+The volume labels are the main contents, not page-level attribution; PG 4 in particular mixes
+Dionysius with the scholia (its one formula, p. 290, is still unattributed).
+
+**Clement uses allegory more than Origen, and means something else by it.**
+- **Rate.** PG 8 has 42 ἀλληγορ- in 171K words (24.5; 41 once a duplicated page is removed),
+  against Origen's 5.1 (Matthew), 9.0 (John) and 18.6 (*Contra Celsum* proper, pp. 301–850, 172K
+  words). And **Clement has no τροπολογ- at all**; Origen has 33–37 in PG 11 and PG 13.
+- **Form.** Clement's are almost all verbs, and 4 of 42 are nouns (ἀλληγορία/-αν). Origen's
+  *Contra Celsum* has 17 nouns of 32. In Clement the subject of the verb, or the thing allegorized,
+  is Scripture, the Word or a biblical author: "the Word allegorizes us as lambs" (p. 142); "Paul,
+  allegorizing, names it milk" (p. 160); "pleasure is allegorized as the serpent" (p. 120); "Egypt
+  is allegorized as the world" (p. 370). **For Clement, allegory is what the text does** (it speaks
+  in figures). In *Contra Celsum* it is what readers do: τοὺς ἀλληγοροῦντας, "those who
+  allegorize", and ἀλληγορίαν ἐπιδέχεσθαι, "to admit an allegory". Only one Clement hit is
+  method-shaped (p. 581: heretics who take "what was said by allegory" straight).
+- **Concentration.** About 20 of the 42 fall on pp. 139–191, *Paedagogus* I's argument that
+  Scripture calls believers children, lambs and milk. The rate is partly one theme.
+- **Test pending.** PG 9 holds *Stromata* V, Clement's own treatment of symbol and hidden meaning.
+  If the pattern (verb, text as subject, no τροπολογία) holds there, it is Clement's habit and not
+  the *Paedagogus*'s theme.
+
+**PG 11: five formula windows, all in *Contra Celsum*, all pairs again.** Celsus's mentions
+(κελσ-) run pp. ~300–850, and 32 of the volume's 36 ἀλληγορ- and 33 of its 33 τροπολογ- fall
+there (13 and 14 of them in pp. 551–600, book IV on Genesis). The windows:
+- p. 351 (I.18): Celsus, "accusing the history of Moses, blames those who tropologize and allegorize
+  it" (αἰτιᾶται τοὺς τροπολογοῦντας καὶ ἀλληγοροῦντας). The second window on the page adds
+  ἠθικοὺς λόγους, "moral discourses", set beside laws: a genre, not a sense.
+- p. 556 (IV.45): Celsus on Lot's daughters, "neither examining it according to the letter nor
+  searching it by anagogy" (οὔτε κατὰ τὸ ῥητὸν … οὔτε κατὰ τὴν ἀναγωγήν), and then "the
+  tropology of the place".
+- p. 559 (IV.49): the histories "written with tropology as their aim" (ὡς σκοπῷ τροπολογίας),
+  against Celsus's "not such as to admit an allegory".
+- p. 561 (IV.51): Numenius "sets out a story about Jesus … and tropologizes it"; writings "that
+  contain allegories".
+
+**In every window the higher names are synonyms.** "Tropologize and allegorize" is one charge;
+anagogy and tropology on p. 556 are one reading set against the letter. τροπολογία in Origen's
+Greek is figurative reading in general, used of pagan myth as of Moses; in none of these windows is it the moral sense.
+That confirms section 11 from a second work: Origen's scheme is letter against figure, and the
+moral *tropologia* is the Latin translators' (PG 13's vetus: τροπολογία → *moraliter*).
+
+**The picture so far, PG 1–14.**
+1. Before Origen, ἀλληγορ- is the only one of the four names in use (PG 2, 7, 8), and in Clement it
+   is a figure of speech in the text.
+2. τροπολογία appears with Origen (PG 6's 3 hits need checking: they may be later pieces in the
+   volume) and in Origen means "figurative reading", interchangeable with allegory.
+3. ἀναγωγή is light everywhere but in Origen's commentaries (10–13) and Ps-Dionysius (63.6 in PG
+   3), where it is the ascent, beside θεωρία and συμβολικῶς.
+4. No Greek window so far names four senses. Of the 8 three-name windows, the 7 in Origen all
+   name one higher reading twice; PG 4 p. 290 is not yet read or attributed.
+
+
 ## Next
 
 1. Part I is in `ledger/claims-partI.tsv`, enriched, with `ledger/READING-MAP-partI.md` (3.7).
