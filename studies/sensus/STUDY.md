@@ -590,10 +590,13 @@ is being read, then PG 12. Rates are per
 | PG 13 (Origen on Matthew) | 216K | 5.1 | 17.1 | 13.0 | 7.4 | 4.6 |
 | PG 14 (Origen on John) | 156K | 9.0 | 1.9 | 10.2 | 9.0 | 3.2 |
 
-The volume labels are the main contents, not page-level attribution; PG 4 in particular mixes
-Dionysius with the scholia (its one formula, p. 290, is still unattributed).
+The volume labels are the main contents. Page-level attribution comes from the running heads
+(`~/patrologia/htr/pg-heads.py`, 2026-11-12): every page's printed head is read by Tesseract, which
+gives the work title and, after a fitted map, the Migne column (OCR evidence, cited "col. ≈N").
+`census_gr.py` now prints both for every formula.
 
-**Clement uses allegory more than Origen, and means something else by it.**
+**Clement uses allegory more than Origen, and means something else by it; but the rate is the
+*Paedagogus*.**
 - **Rate.** PG 8 has 42 ἀλληγορ- in 171K words (24.5; 41 once a duplicated page is removed),
   against Origen's 5.1 (Matthew), 9.0 (John) and 18.6 (*Contra Celsum* proper, pp. 301–850, 172K
   words). And **Clement has no τροπολογ- at all**; Origen has 33–37 in PG 11 and PG 13.
@@ -605,11 +608,14 @@ Dionysius with the scholia (its one formula, p. 290, is still unattributed).
   in figures). In *Contra Celsum* it is what readers do: τοὺς ἀλληγοροῦντας, "those who
   allegorize", and ἀλληγορίαν ἐπιδέχεσθαι, "to admit an allegory". Only one Clement hit is
   method-shaped (p. 581: heretics who take "what was said by allegory" straight).
-- **Concentration.** About 20 of the 42 fall on pp. 139–191, *Paedagogus* I's argument that
-  Scripture calls believers children, lambs and milk. The rate is partly one theme.
+- **By work** (running heads): *Paedagogus* 28 in 54K words (**52.1**); *Protrepticus* 3 in 24K
+  (12.3); *Stromata* I–IV 10 in 83K (12.0); one more on an editorial page. **Outside the
+  *Paedagogus*, Clement's rate (12) sits between Origen's commentaries (5–9) and *Contra Celsum*
+  (18.6).** So the high volume rate is one work, and much of it one theme: *Paedagogus* I's
+  argument that Scripture calls believers children, lambs and milk (pp. 139–191). What survives
+  the split is the *form*, not the rate: the verb with the text as subject, and no τροπολογία.
 - **Test pending.** PG 9 holds *Stromata* V, Clement's own treatment of symbol and hidden meaning.
-  If the pattern (verb, text as subject, no τροπολογία) holds there, it is Clement's habit and not
-  the *Paedagogus*'s theme.
+  If the form (verb, text as subject, no τροπολογία) holds there, it is Clement's habit.
 
 **PG 11: five formula windows, all in *Contra Celsum*, all pairs again.** Celsus's mentions
 (κελσ-) run pp. ~300–850, and 32 of the volume's 36 ἀλληγορ- and 33 of its 33 τροπολογ- fall
@@ -632,14 +638,25 @@ That confirms section 11 from a second work: Origen's scheme is letter against f
 moral *tropologia* is the Latin translators' (PG 13's vetus: τροπολογία → *moraliter*).
 
 **The picture so far, PG 1–14.**
-1. Before Origen, ἀλληγορ- is the only one of the four names in use (PG 2, 7, 8), and in Clement it
-   is a figure of speech in the text.
-2. τροπολογία appears with Origen (PG 6's 3 hits need checking: they may be later pieces in the
-   volume) and in Origen means "figurative reading", interchangeable with allegory.
+1. Before Origen, ἀλληγορ- is the common name (PG 2, 7, 8), and in Clement it is a figure of
+   speech in the text.
+2. **τροπολογία is older than Origen: Justin has it.** All three PG 6 hits are in the *Dialogue
+   with Trypho* (c. 160; running heads, cols ≈605, 739, 777): "if we are at all experienced in
+   tropology" (εἰ τροπολογίας ἔμπειροι); Christ is called a stone "in parable" and Jacob and Israel
+   "in tropology" (ἐν τροπολογίᾳ); and Trypho's side, "the words do not admit tropology, as the
+   sophists try to expound them". In Justin it is figurative naming, Christ named under a figure,
+   the same general sense Origen uses. Clement, between them, never uses it. Origen makes it a
+   working term; the moral sense is still the Latin translators' (section 11).
 3. ἀναγωγή is light everywhere but in Origen's commentaries (10–13) and Ps-Dionysius (63.6 in PG
    3), where it is the ascent, beside θεωρία and συμβολικῶς.
-4. No Greek window so far names four senses. Of the 8 three-name windows, the 7 in Origen all
-   name one higher reading twice; PG 4 p. 290 is not yet read or attributed.
+4. No Greek window so far names four senses. All 8 three-name windows name one higher reading
+   twice. The 7 in Origen are above. **PG 4 p. 290 is not Dionysius: it is the scholia** (running
+   heads: "S. Maximi scholia in Epp. S. Dionysii", col. ≈567, on the Letters; Migne prints the
+   scholia as Maximus's, much of them now given to John of Scythopolis). The scholiast paraphrases
+   the letter's point: "what is said symbolically or historically in Scripture has not bare history
+   but life-giving perfection … showing that anagogy and allegory must be taken up"
+   (ἀναγκαίως τὴν ἀναγωγὴν καὶ ἀλληγορίαν παραλαμβάνεσθαι). One reading, two names, against bare
+   history.
 
 
 ## Next

@@ -16,11 +16,15 @@ Left out on purpose: παραβολή (the Gospel parables; only παραβολ�
 Text is normalized as the G1 gate measured it: accents, breathings and case dropped, final sigma
 folded, hyphenated line ends rejoined.
 Writes census/gr-terms.tsv (term counts per work) and census/gr-formulas.tsv, prints the summary.
+Each formula is placed by the volume's running heads (~/patrologia/data/pg-heads/NNN.tsv, written by
+~/patrologia/htr/pg-heads.py): Migne column (OCR-fitted, "col. ≈N") and the head text of the page
+and its facing page (author on one, work title on the other).
 """
 import collections, glob, os, re, sys, unicodedata
 HERE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 K = os.path.expanduser('~/patrologia/raw/kraken')
 OUT = os.path.join(HERE, 'census')
+HEADS = os.path.expanduser('~/patrologia/data/pg-heads')
 WIN = 60
 A = r'(?:την |τη |τησ )?'          # optional article
 TERMS = [
@@ -93,6 +97,27 @@ def norm(t):
             keep += ws
     return ' '.join(keep)
 
+_HEADS = {}
+def locate(work, page):
+    """(col, heads) for a Kraken page 'p-0290' of work 'pg-004' or 'origen-pg013'; ('', '') if unmapped."""
+    m = re.search(r'pg-?(\d{3}(?:-\d)?)$', work)
+    if not m: return '', ''
+    vol = m.group(1)
+    if vol not in _HEADS:
+        f = os.path.join(HEADS, vol + '.tsv')
+        rows = {}
+        if os.path.exists(f):
+            for l in open(f, encoding='utf-8').read().splitlines()[1:]:
+                c = l.split('\t')
+                rows[int(c[0])] = (c[1], c[4])
+        _HEADS[vol] = rows
+    rows, n = _HEADS[vol], int(page[2:])
+    if n not in rows: return '', ''
+    col, h = rows[n]
+    mate = rows.get(n + 1 if n % 2 == 0 else n - 1, ('', ''))[1]
+    return col, ' / '.join(x for x in (h, mate) if x)
+
+
 def scan(work):
     """One work: (words, term counts, formulas). Page-level offsets so a formula carries its page."""
     text, pstart = [], []
@@ -116,7 +141,8 @@ def scan(work):
             while j < len(fh) and fh[j][0] - fh[j - 1][0] <= WIN:
                 fams.add(TERMS[fh[j][2]][1]); j += 1
             a, b = fh[i][1], fh[j - 1][1]
-            forms.append((work, page(a), ''.join(x for x in 'LATN' if x in fams),
+            pg = page(a)
+            forms.append((work, pg, *locate(work, pg), ''.join(x for x in 'LATN' if x in fams),
                           ' '.join(TERMS[h[2]][0].replace(' ', '_') for h in fh[i:j]),
                           text[max(0, a - 120):b + 160]))
             i = j
@@ -136,7 +162,7 @@ def main():
             o.write(f'{t}\t{f}\t{g}\t' + '\t'.join(str(res[w][1][t]) for w in works) + '\n')
     allf = [f for w in works for f in res[w][2]]
     with open(os.path.join(OUT, 'gr-formulas.tsv') if full else os.devnull, 'w', encoding='utf-8') as o:
-        o.write('work\tpage\tfamilies\tterms\tsnippet\n')
+        o.write('work\tpage\tcol\theads\tfamilies\tterms\tsnippet\n')
         for r in allf:
             o.write('\t'.join(r) + '\n')
     tw = sum(r[0] for r in res.values())
@@ -151,7 +177,7 @@ def main():
             print(f'  {f} {t:<26} {tot[t]:>5} ({100000 * tot[t] / tw:5.1f})')
     print('\nformulas:')
     for r in allf:
-        print(f'  {r[0]} {r[1]} {r[2]:<5} {r[3]}')
+        print(f'  {r[0]} {r[1]} col.≈{r[2] or "?"} {r[4]:<5} [{r[3][:70]}] {r[5]}')
 
 if __name__ == '__main__':
     main()
