@@ -17,3 +17,4 @@ studies/sensus/ledger/lubac-theory-vs-census.tsv
 studies/sensus/ledger/lubac-theory-misses.tsv
 site/.env*
 studies/sensus/ledger/pg-refs-check.tsv
+studies/sensus/ledger/pg-greek-check.tsv
