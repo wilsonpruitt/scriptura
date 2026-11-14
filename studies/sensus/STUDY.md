@@ -709,6 +709,100 @@ over.** The rates below are per 100K Greek words.
     Theodore, PG 33, 66) and in the Origenist controversy (Epiphanius, PG 41–43).
 
 
+## 13. De Lubac's PG citations against the Greek (2026-11-14)
+
+This section tests de Lubac's PG references against what the Greek says. It names him and cites his
+references as *EM* volume, page and note, so that any step can be checked against his own text.
+
+**Method**
+- **Raw material.** *Exégèse médiévale* cites PG 322 times; the citations were harvested in Stage A.
+  Until now they stopped at "PG tome, column", because the resolver knew only PL.
+- **Placement** (`scripts/pg_refs_check.py`, no tokens):
+  - The running heads of every PG page are now mapped to Migne's columns
+    (`~/patrologia/data/pg-heads/`).
+  - With that map, the 206 references that fall in tomes already read by Kraken were placed on their
+    page and in their work.
+- **Reading.** 68 of the placed references fall on pages where Migne prints Greek beside his Latin.
+  Each was read with the Greek (Kraken) and the Latin (Tesseract) of the cited page and its two
+  neighbours, by Opus readers working only from those pages.
+  - Each reader recorded how the Latin renders the sense terms.
+  - Each also recorded whether de Lubac's point stands on the Greek.
+  - These are model readings of OCR text; quote them as "read by machine, to be checked".
+- **Correction.** The four *Selecta in Threnos* references at *EM* I/2 419 n. 2 are printed
+  "PG XIV". The work stands in PG XIII, and the running heads there confirm it, so they were re-read
+  in PG 13.
+
+**Results** (references whose point could be tested)
+
+| de Lubac's point… | refs |
+|---|---:|
+| holds on the Greek | 43 |
+| holds partly | 7 |
+| holds only on Migne's Latin | 2 |
+| not found at the cited column (garbled or slipped citation) | 5 |
+
+- **Not counted above:** 11 more references have no coded claim to test, but the passages were read.
+- **Migne's Latin:** faithful in 34, loose in 20, shifts the sense in 5. 9 have no Greek to compare,
+  mostly Rufinus' Latin, where the Greek is lost.
+
+**1. His Greek citations stand.** Where he quotes or paraphrases the Greek, the Greek bears him out,
+often word for word.
+- *EM* I/1 43 n. 5, "secundum anagogiae leges" (PG 13, 620 B): the Greek of the *Selecta in Threnos*
+  is κατὰ τοὺς τῆς ἀναγωγῆς νόμους.
+- *EM* I/2 419 n. 10, "il faut nécessairement admettre l'allégorie et l'anagogie" (PG 4, 568 D,
+  the scholia on Dionysius, Ep. 9):
+  - the Greek is ἀναγκαίως τὴν ἀναγωγὴν καὶ ἀλληγορίαν παραλαμβάνεσθαι;
+  - the census found the same window independently (section 12, PG 4 p. 290).
+- *EM* I/2 419 n. 6 (PG 11, 1108 B, *Contra Celsum* IV.49): he quotes ταῖς ἱστορίαις ὡς σκοπῷ
+  τροπολογίας γεγραμμέναις and calls Migne's Latin "bien traduit". It is.
+  - The Latin puts *ut allegoriis explicarentur* for σκοπῷ τροπολογίας.
+  - So Origen's τροπολογία here is figurative reading in general, interchangeable with ἀλληγορία, and
+    not the moral sense (compare section 12, PG 11).
+
+**2. Where his point rests on Migne's Latin, the Latin is not the Father's.** Two references rest on
+words the Greek does not have, both in a modern facing translation.
+- *EM* II/1 107 n. 1 (PG 13, 545–6 D, *Selecta in Jeremiam*): *perverse in fide sentientes*. The
+  Greek is the neutral τῶν ἑτεροδόξων; "perverse" is the translator's.
+- *EM* II/1 342 n. 4 (PG 12, 1014 B, the homily on the witch of Endor): *secundum historiae
+  seriem* and *sensu mystico ac recondito*. The Greek has κατὰ τὴν ἱστορίαν and κατὰ τὴν ἀναγωγήν.
+- In both, the Latin is a modern version of a text whose Greek survives, not an ancient Latin
+  Origen. The vocabulary de Lubac draws on there belongs to the translator, and no medieval reader
+  could have inherited it from Origen.
+
+**3. Migne's Latin turns Greek ἀναγωγή into the Latin "spiritual sense".** The pattern appears in
+every work read so far.
+- **ἀναγωγή** becomes *spiritalis sensus* or *mysticus sensus*:
+  - *Sel. in Ez.* PG 13, 821–2 C (*EM* I/2 432 n. 8; I/2 493): "ἔχει καὶ τὴν ἀναγωγὴν κατάλληλον"
+    becomes *convenientem etiam spiritalem sensum habet*, and τὰ νοητά becomes *spiritalia*;
+  - PG 13, 813 C (*EM* I/2 418): κατὰ τὴν ἀναγωγήν becomes *secundum mysticum sensum*;
+  - *Sel. in Ps.* PG 12, 1125 C (*EM* I/2 418): πρὸς ἀναγωγήν becomes *secundum spiritalem sensum*.
+- **Origen's plain πρὸς διάνοιαν** ("as to the meaning") in the *Selecta in Threnos* (*EM* I/2 419
+  n. 2) becomes *ad sublimiorem sensum* (609 A), *mystice* (616 C) and *spiritaliter* (652 B).
+- **Where Origen names the method itself, the Latin calques it:** *per anagogen* (616 C),
+  *anagogice* (608 D), *secundum anagogiae leges*.
+- **Pagan allegory is Christianized or renamed:**
+  - *Sel. in Ez.* PG 13, 799 A (*EM* I/2 514 n. 5): those skilled in the ἀναγωγή of Greek myths
+    and of "so-called mythical theology" become men who *gentilium fabulas … profanam theologiam ad
+    sensus spiritales trahant*.
+  - Tatian, PG 6, 853 B (*EM* I/2 465 n. 8): Metrodorus turning everything εἰς ἀλληγορίαν becomes
+    *ad physiologiam revocans*.
+- **The term "anagogy" is sometimes de Lubac's own framing.** Of the future age in *Sel. in Ps.*
+  22:5 (PG 12, 1264 A, *EM* I/2 631 n. 2), the Greek has μέλλων αἰών and θεωρία but not ἀναγωγή.
+
+**What this means for the study**
+- **The Greek Fathers' own distinction is two-level:** ῥητόν/λέξις/ἱστορία against
+  ἀναγωγή/διάνοια/θεωρία. That agrees with the census (sections 11–12): pairs, not quaternities.
+- **The Latin translations re-express the higher term in the vocabulary of the medieval Latin
+  tradition.** A reader who knows the Greek Fathers only through Migne's Latin will find the Latin
+  "spiritual sense" in them already.
+- **Where de Lubac quotes the Greek, he is exact.** Where he quotes Migne's Latin, he sometimes
+  inherits the translator's vocabulary as the Father's.
+- **The ancient Latin translations differ.** The surviving Latin of Rufinus and Jerome belongs to the
+  history de Lubac traces. The early-modern facing versions in Migne do not.
+- **Still to come:** the remaining 116 PG references (PG 20 onward, largest PG 93 with 17) will be
+  placed and read as Kraken reaches their tomes. The per-reference readings are kept in the local
+  ledger (`ledger/pg-greek-check.tsv`).
+
 ## Next
 
 1. Part I is in `ledger/claims-partI.tsv`, enriched, with `ledger/READING-MAP-partI.md` (3.7).
