@@ -679,6 +679,35 @@ moral *tropologia* is the Latin translators' (PG 13's vetus: τροπολογί�
    (ἀναγκαίως τὴν ἀναγωγὴν καὶ ἀλληγορίαν παραλαμβάνεσθαι). One reading, two names, against bare
    history.
 
+**PG 16–19 (2026-11-14): no formula windows. τροπολογία turns up where Origen is being argued
+over.** The rates below are per 100K Greek words.
+
+- **PG 16 (1–3) and PG 19 (Eusebius, *Chronicon*):** τροπολογ- 0. ἀλληγορ- reaches only 1.3 in
+  PG 19.
+- **PG 17, Huet's *Origeniana* and the supplement to Origen's exegetica: τροπολογ- 7 (8.3).** Six
+  of the seven are Origen's Greek as Huet quotes it.
+  - col. ≈147, *Excerpta in Psalmos*: "I know, by tropology, many rivers of Egypt…"
+  - col. ≈909, on "the lamp of the body is the eye": τροπολογικῶς the body is taken of the soul.
+  - col. ≈1069: "to be led up to tropology (ἀναγεσθαι ἐπὶ τροπολογίαν) we did not teach first;
+    we received it from wise men above."
+  - Here the term is a reading that *leads up* (ἀνάγεσθαι), the same move Origen elsewhere calls
+    anagogy.
+- **PG 18, Eustathius of Antioch, *De engastrimytho contra Origenem*: all 5 τροπολογ- in cols.
+  ≈655–659.** Every one is hostile.
+  - Origen "tropologized the doings of Isaac and Rebecca" (ἐτροπολόγησε).
+  - He "tries to tropologize" the stoning narrative, and so "falsifies the gospel letter".
+  - He "overturned everything by tropologies" (ἅπαντα τροπολογίαις ἀνέτρεψε).
+  - The earliest anti-Origenist polemic in the corpus so far (c. 330) uses τροπολογία, not
+    ἀλληγορία, for the thing it attacks. By then the word names Origen's method, and it is used
+    pejoratively.
+- **Picture:**
+  - Justin uses τροπολογία neutrally.
+  - Origen owns it: 37 in PG 13 and 33 in PG 11.
+  - Clement never uses it.
+  - Eustathius throws it back.
+  - The term's career so far runs through Origen. Watch for it in the Antiochenes (Diodore,
+    Theodore, PG 33, 66) and in the Origenist controversy (Epiphanius, PG 41–43).
+
 
 ## Next
 
